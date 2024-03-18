@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">DinoPedia</string>
+
+    <string name="desc_singkat_saurischia">Termasuk theropoda (seperti Tyrannosaurus rex dan Velociraptor) dan sauropodomorpha (seperti Brachiosaurus dan Diplodocus)</string>
+    <string name="desc_singkat_ornithischia">Termasuk herbivora seperti Triceratops, Stegosaurus, dan Hadrosaurus</string>
+    <string name="desc_singkat_theropoda">Sebagian besar adalah dinosaurus karnivora dengan cakar dan gigi yang tajam. Biasanya memiliki tubuh ramping, cakar, dan gigi tajam</string>
+    <string name="desc_singkat_sauropodomorpha">Kelompok ini terdiri dari dinosaurus herbivora dengan leher panjang dan tubuh besar</string>
+    <string name="desc_singkat_ornithopoda">Dinosaurs herbivora dengan struktur gigi yang unik, sering kali memiliki gigi yang berbentuk seperti paruh</string>
+    <string name="desc_singkat_ceratopsia">Dinosaurs herbivora dengan tanduk dan tanduk yang khas di kepala</string>
+    <string name="desc_singkat_ankylosauria">Dinosaurs herbivora yang dilengkapi dengan pelindung dan tulang yang tebal untuk perlindungan</string>
+    <string name="desc_singkat_pterosauria">Meskipun bukan dinosaurus, pterosauria adalah reptil terbang dari periode Mesozoikum yang sering disebut sebagai "reptil terbang"</string>
+
+    <string name="desc_lengkap_saurischia">
+        Deskripsi :
+        \n\nSaurischia adalah kelompok dinosaurus yang terdiri dari dua subkelompok utama: theropoda dan sauropodomorpha. Theropoda adalah dinosaurus karnivora yang sering kali memiliki cakar dan gigi tajam untuk berburu mangsa. Contoh terkenal dari theropoda termasuk Tyrannosaurus rex dan Velociraptor. Di sisi lain, sauropodomorpha adalah dinosaurus herbivora dengan leher panjang dan tubuh besar yang sering digunakan untuk mencari makanan di kanopi pohon-pohon. Brachiosaurus dan Diplodocus adalah contoh terkenal dari sauropodomorpha.
+
+        \n\n\nPeriode Hidup : Jura - Kapur
+
+        \n\n\nKarakteristik :
+
+        \n\nKarakteristik fisik Saurischia bervariasi tergantung pada subkelompoknya. Theropoda umumnya merupakan dinosaurus karnivora dengan cakar dan gigi tajam, sedangkan Sauropodomorpha memiliki tubuh besar dan leher panjang yang digunakan untuk mencari makanan di kanopi pohon-pohon.
+
+        \n\n\nHabitat :
+
+        \n\nBeragam, mulai dari hutan hujan hingga dataran terbuka.
+
+        \n\n\nPerilaku :
+
+        \n\nPerilaku Saurischia bervariasi tergantung pada subkelompoknya. Theropoda biasanya aktif dan pemangsa yang efisien, sedangkan Sauropodomorpha cenderung lebih tenang dan memakan tumbuhan secara terus-menerus.
+
+        \n\n\nKlasifikasi :
+
+        \n\nKlasifikasi Saurischia mencakup dua subkelompok utama: Theropoda (dinosaurus karnivora) dan Sauropodomorpha (dinosaurus herbivora dengan leher panjang).
+    </string>
+    <string name="desc_lengkap_ornithischia">Ornithischia adalah kelompok dinosaurus herbivora yang termasuk Triceratops, Stegosaurus, dan Hadrosaurus. Kelompok ini memiliki struktur gigi yang unik, sering kali dengan gigi yang berbentuk seperti paruh. Mereka umumnya memiliki tubuh yang besar dan kuat untuk mengolah makanan tumbuhan yang keras, seperti dedaunan dan tumbuhan semak.</string>
+    <string name="desc_lengkap_theropoda">Theropoda adalah kelompok dinosaurus karnivora yang mencakup beberapa spesies yang paling terkenal, seperti Tyrannosaurus rex dan Velociraptor. Mereka memiliki tubuh ramping dengan cakar dan gigi tajam yang digunakan untuk berburu mangsa. Beberapa theropoda juga mampu bergerak dengan cepat dan menggunakan kecerdasan mereka untuk memburu secara efektif.</string>
+    <string name="desc_lengkap_sauropodomorpha">Sauropodomorpha adalah kelompok dinosaurus herbivora dengan leher panjang dan tubuh besar yang sering kali digunakan untuk mencari makanan di kanopi pohon-pohon. Mereka adalah dinosaurus berukuran besar yang memiliki struktur tubuh yang kuat dan kuat untuk mendukung berat badannya yang besar. Beberapa spesies, seperti Brachiosaurus, bahkan mungkin memiliki leher yang dapat mencapai tinggi hingga 30 kaki atau lebih.</string>
+    <string name="desc_lengkap_ornithopoda">Ornithopoda adalah kelompok dinosaurus herbivora dengan struktur gigi yang unik, sering kali dengan gigi yang berbentuk seperti paruh. Mereka adalah dinosaurus berukuran sedang hingga besar yang memiliki tubuh yang kuat untuk mengolah makanan tumbuhan yang keras. Beberapa ornithopoda mungkin membentuk kelompok besar untuk melindungi diri dari pemangsa, sementara yang lain mungkin memiliki kemampuan untuk bergerak cepat untuk menghindari bahaya.</string>
+    <string name="desc_lengkap_ceratopsia">Ceratopsia adalah kelompok dinosaurus herbivora yang memiliki tanduk dan tanduk yang khas di kepala. Mereka umumnya adalah dinosaurus berukuran besar dengan tubuh yang kokoh dan kuat. Beberapa ceratopsia, seperti Triceratops, memiliki tanduk besar yang mungkin digunakan untuk bertarung atau menunjukkan dominasi dalam kelompok.</string>
+    <string name="desc_lengkap_ankylosauria">Ankylosauria adalah kelompok dinosaurus herbivora yang dilengkapi dengan pelindung dan tulang yang tebal untuk perlindungan. Mereka adalah dinosaurus berukuran sedang hingga besar yang memiliki baju besi berduri di punggung mereka. Beberapa spesies, seperti Ankylosaurus, bahkan mungkin memiliki baji besar di ekor mereka untuk mempertahankan diri dari serangan pemangsa.</string>
+    <string name="desc_lengkap_pterosauria">Pterosauria adalah kelompok reptil terbang dari periode Mesozoikum yang sering disebut sebagai "reptil terbang". Mereka memiliki sayap membran yang didukung oleh jari-jari panjang. Meskipun bukan dinosaurus, pterosauria adalah predator langit yang menakutkan, memanfaatkan kemampuan terbang mereka untuk berburu mangsa dan menghindari bahaya.</string>
+
+    <string name="desc_singkat_1">
+                Tyrannosaurus[nb 1] adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam klad Coelurosauria.
+    </string>
+
+    <string name="desc_lengkap_1">
+        Tyrannosaurus[nb 1] adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam klad Coelurosauria. Spesies Tyrannosaurus rex (sering dijuluki T. rex atau T-Rex; "rex" berarti "raja" dalam bahasa Latin) adalah salah satu teropoda besar yang paling dikenal oleh khalayak luas. Tyrannosaurus hidup di sebuah benua yang dikenal dengan nama Laramidia, yang kini telah berubah menjadi Amerika Utara bagian barat. Tyrannosaurus jauh lebih tersebar daripada hewan-hewan Tyrannosauridae lainnya. Fosil-fosil Tyrannosaurus telah ditemukan di berbagai formasi geologi dari zaman Kapur Akhir sekitar 68 hingga 65 juta tahun yang lalu.[2] Tyrannosaurus merupakan salah satu dinosaurus nonburung terakhir sebelum terjadinya peristiwa kepunahan Kapur–Paleogen.
+
+        \n\nSeperti hewan-hewan Tyrannosauridae lainnya, Tyrannosaurus adalah seekor karnivora bipedal dengan tengkorak besar yang diseimbangkan oleh ekornya yang berat dan panjang. Tyrannosaurus memiliki tungkai belakang yang kuat dan besar, sementara tungkai depannya pendek dan hanya memiliki dua jari. Spesimen Tyrannosaurus yang paling lengkap memiliki panjang 14 m,[3] tinggi 4 m di bagian panggul (titik tertinggi Tyrannosaurus karena hewan ini tidak dapat berdiri tegak),[4] dan menurut perkiraan yang paling modern mempunyai massa antara 8,4 hingga 14 ton.[3][5][6] Meskipun terdapat teropoda-teropoda lain dengan besar tubuh yang dapat menyaingi atau bahkan melebihi Tyrannosaurus rex, Tyrannosaurus masih menjadi salah satu predator darat terbesar yang pernah ditemukan dan diperkirakan memiliki gigitan terkuat di antara semua hewan yang hidup di darat.[7][8] Di lingkungannya, Tyrannosaurus rex merupakan karnivora terbesar, sehingga kemungkinan besar mereka adalah predator puncak yang memangsa Hadrosauridae, herbivora-herbivora seperti Ceratopsia dan Ankylosauria, dan mungkin juga Sauropoda.[9] Terdapat beberapa ahli yang meyakini bahwa Tyrannosaurus murni adalah seekor pemakan bangkai. Perdebatan mengenai jati diri Tyrannosaurus sebagai predator puncak atau pemakan bangkai merupakan salah satu perdebatan terpanjang dalam ilmu paleontologi. Sebagian besar ahli paleontologi saat ini berpegang pada kesimpulan bahwa Tyrannosaurus adalah seekor predator yang juga memakan bangkai.[10]
+
+        \n\nSejauh ini telah ditemukan lebih dari 50 spesimen Tyrannosaurus rex, dan beberapa di antaranya hampir lengkap. Jaringan lunak dan protein telah didapati pada paling tidak satu spesimen. Berkat jumlah fosil yang berlimpah, peneliti dapat menyelidiki berbagai aspek biologisnya, termasuk sejarah kehidupan dan biomekanikanya. Perilaku makan, fisiologi, dan kecepatan potensial Tyrannosaurus rex merupakan beberapa subjek yang masih diperdebatkan. Taksonominya juga kontroversial, karena beberapa ilmuwan menganggap Tarbosaurus bataar dari Asia sebagai spesies Tyrannosaurus yang kedua, sementara yang lainnya menganggap Tarbosaurus sebagai genus yang terpisah. Beberapa genera Tyrannosauridae yang lain dari Amerika Utara juga telah disinonimkan dengan Tyrannosaurus.
+    </string>
+
+    <string name="desc_lengkap_2">
+
+    </string>
+
+    <string name="nim_about">11S21010</string>
+    <string name="nama_about">Gabriel Cesar Hutagalung</string>
+</resources>
