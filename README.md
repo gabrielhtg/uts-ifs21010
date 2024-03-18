@@ -1,6 +1,5 @@
-# Planet App
+# DinoPedia
 
-## Features
-
-1. Menampilkan planet
-2. Menampilkan deskripsi
+Nama : Gabriel Cesar Hutagalung
+NIM : 11S21010
+Prodi : S1 Informatika
