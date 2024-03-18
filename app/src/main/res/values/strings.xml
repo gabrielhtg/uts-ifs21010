@@ -52,8 +52,52 @@
         \n\nSejauh ini telah ditemukan lebih dari 50 spesimen Tyrannosaurus rex, dan beberapa di antaranya hampir lengkap. Jaringan lunak dan protein telah didapati pada paling tidak satu spesimen. Berkat jumlah fosil yang berlimpah, peneliti dapat menyelidiki berbagai aspek biologisnya, termasuk sejarah kehidupan dan biomekanikanya. Perilaku makan, fisiologi, dan kecepatan potensial Tyrannosaurus rex merupakan beberapa subjek yang masih diperdebatkan. Taksonominya juga kontroversial, karena beberapa ilmuwan menganggap Tarbosaurus bataar dari Asia sebagai spesies Tyrannosaurus yang kedua, sementara yang lainnya menganggap Tarbosaurus sebagai genus yang terpisah. Beberapa genera Tyrannosauridae yang lain dari Amerika Utara juga telah disinonimkan dengan Tyrannosaurus.
     </string>
 
-    <string name="desc_lengkap_2">
+    <string name="desc_singkat_2">
+        Velociraptor (/vəˌlɒsɪˈræptər, vəˈlɒsɪræptər/;[1] terj. har. pencuri gesit) adalah genus dari dinosaurus Dromaeosaurid yang hidup di Asia pada kala Kapur Akhir, sekitar 75 hingga 71 juta tahun lalu. Dari genus tersebut, dua spesies sudah dideskripsikan.
+    </string>
 
+    <string name="desc_lengkap_2">
+        Lebih kecil daripada dromaeosaurida lainnya seperti Deinonychus dan Achillobator, genus ini memiliki panjang 1.5 - 2.07 m, dengan berat 14.1 - 19.7 kg. Velociraptor memiliki kesamaan fitur anatomis dengan anggota dromaeosaurid lainnya, yaitu memiliki tubuh berbulu[2] dan berkaki dua (bipedal) dengan ekor yang panjang serta cakar berbentuk sabit pada kedua kaki, yang dianggap digunakan untuk menjatuhkan dan menahan mangsa, serta memiliki gaya hidup sebagai karnivor.[3] Pembeda genus ini dengan dromaeosaurid lainnya adalah tengkoraknya yang panjang dan rendah, dengan moncong yang mengarah keatas. Velociraptor juga termasuk pintar bila dibandingkan dengan dinosurus lainnya, dan hal ini membuat mereka mampu bersaing dengan predator besar lain yang hidup di tempat yang sama. Fosilnya ditemukan di daerah Mongolia, Rusia, dan Cina.
+
+        \n\nSeperti dromaesaurid lainnya, Velociraptor merupakan sebuah pemburu soliter. Hal ini diketahui dengan analisa ratio karbon dari D. antirrhopus yang menunjukkan adanya perubahan diet seiring bertumbuh dewasa, sebuah perilaku yang masih dapat dilihat pada hewan-hewan soliter masa kini.[4]
+    </string>
+
+    <string name="desc_singkat_3">
+        Stegosaurus (diucapkan /ˈsteg.əˌsɔː.rəs/) artinya "kadal beratap", karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara.
+    </string>
+
+    <string name="desc_lengkap_3">
+        Stegosaurus (diucapkan /ˈsteg.əˌsɔː.rəs/) artinya "kadal beratap", karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara. Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya (dasar untuk nama ilmiahnya) dan 2 pasang duri panjang di ekornya (disebut thagomizer).
+
+        \n\nPaleontologis sempat memperdebatkan bagaimana sisik-sisik di punggung Stegosaurus tersusun. Karena sisik tersebut berada di atas lapisan otot punggung (paleontologis bahkan memperkirakan sisik tersebut memiliki pembuluh darah) maka saat Stegosaurus mati dan memfosil, sisik-sisik tersebut terlepas dan saling bertumpukan. Pendapat pertama mengatakan bahwa sisik Stegosaurus menutupi punggungnya, pendapat kedua mengatakan bahwa sisik-sisik tersebut berdiri tegak dan saling bersebelahan dan pendapat terakhir yang paling disetujui adalah sisik-sisiknya berdiri tegak dengan posisi saling silang.
+
+        \n\nSatu hal yang sering menimbulkan salah paham mengenai Stegosaurus adalah rongga pada ujung ekornya. Dahulu paleontologis mengira bahwa rongga tersebut berisi otak Stegosaurus, sehingga menimbulkan anggapan bahwa Stegosaurus merupakan dinosaurus yang pintar karena memiliki 2 otak. Belakangan diketahui bahwa anggapan tersebut adalah salah. Stegosaurus bukanlah dinosaurus yang cukup pintar karena otaknya hanya sebesar bola golf dan rongga pada ekor Stegosaurus adalah tempat melekatnya otot-otot ekor yang sangat kuat, yang digunakan sebagai alat pertahanan diri dengan mengayunkan ekor berdurinya sekeras mungkin ke arah penyerangnya.
+    </string>
+
+    <string name="desc_singkat_4">
+        Hadrosaurus (/ˌhædrəˈsɔːrəs/;[1][2] from Greek ἁδρός, hadros, artinya "besar", dan σαῦρος, sauros, artinya "kadal")[3][4][5][6] adalah sebuah genus valid[7] dari dinosaurus hadrosaurid yang hidup di Amerika Utara pada zaman Kapur Akhir.
+    </string>
+
+    <string name="desc_lengkap_4">
+        Hadrosaurus (/ˌhædrəˈsɔːrəs/;[1][2] from Greek ἁδρός, hadros, artinya "besar", dan σαῦρος, sauros, artinya "kadal")[3][4][5][6] adalah sebuah genus valid[7] dari dinosaurus hadrosaurid yang hidup di Amerika Utara pada zaman Kapur Akhir.
+
+\n\nHadrosaurus foulkii, satu-satunya spesies dalam genus tersebut, diketahui keberadaannya dari satu spesimen yang terdiri dari sebagian besar kerangka dan sebagian dari tengkoraknya.
+    </string>
+
+    <string name="desc_singkat_5">
+Allosaurus (bahasa Yunani: Allos; berbeda, aneh, dan Sauros; kadal) merupakan dinosaurus karnivora terbesar dalam Periode Jurasik. Allosaurus merupakan salah satu jenis dinosaurus yang paling baik dikenal sejauh ini selain karnivora terdahulu lainnya seperti Megalosaurus dan Tyrannosaurus rex.
+    </string>
+
+    <string name="desc_lengkap_5">
+        Allosaurus, walau merupakan pemangsa teratas di zamannya, pada awalnya mereka menetas dengan ukuran yang kecil, yang membutuhkan perawatan dari induknya. Allosaurus adalah karnivora eksklusif, yang memburu dan memakan dinosaurus herbivora lain seperti Camptosaurus, Diplodocus, Apatosaurus, Stegosaurus, dan Kentrosaurus. Metode menyerang dari dinosaurus raksasa ini telah diketahui dengan baik. Allosaurus diduga kuat menyergap mangsa semacam Ornithopoda karena mereka dapat berlari cepat, dan mengejar mangsa lambat seperti Sauropoda. Allosaurus memiliki gigi yang kuat, tajam, dan bergerigi di bagian belakang. Gigi khusus seperti ini terdapat pada semua Allosauridae. Dibandingkan karnivora lain, gigitan Allosaurus cenderung lemah namun otot-otot lehernya sangat kuat. Allosaurus menggunakannya untuk mengayunkan rahangnya yang terbuka maksimal, kemudian dengan sekuat tenaga akan menghunjamkan rahang atasnya langsung ke mangsa, menyebabkan cedera serius dan pendarahan yang hebat. Metode ini kadang disebut metode kapak karena tindakan ini bisa membunuh mangsa semudah kapak memotong kayu.
+    </string>
+
+    <string name="desc_singkat_6">
+        Diplodocus (pengucapan: /dɪˈplɒdəkəs/,[1][2] /daɪˈplɒdəkəs/,[2] atau /ˌdɪploʊˈdoʊkəs/[1]) adalah genus dinosaurus sauropod diplodocid yang fosilnya pertama kali ditemukan pada tahun 1877 oleh S. W. Williston. Dinosaurus ini hidup di Amerika Utara barat pada akhir periode Jurassic.
+    </string>
+
+    <string name="desc_lengkap_6">
+        Diplodocus mungkin termasuk dalam sepuluh dinosaurus terbesar, dengan panjang 31 m. Tingginya sekitar 5 m, terhitung pendek bagi Sauropoda kebanyakan. Berat sekitar 20 ton yang terhitung ringan karena tulang-tulangnya berrongga. Pada ilustrasi dinosaurus awal, binatang ini sering digambarkan hidup di rawa dengan leher yang menjulur melengkung ke atas seperti angsa dan ekor yang diseret. Namun kini para ahli sudah menepis rekonstruksi itu karena diyakini luas Diplodocus tidak bisa menegakkan lehernya ke atas yang hanya akan memecahkan pembuluh darah oleh tekanan untuk mengangkut oksigen dari jantung ke otak. Dan karena tulang serta otot ekornya amat kuat, Diplodocus tidak mungkin menyeret ekornya, melainkan mengangkatnya untuk menyeimbangkan leher dan kepalanya yang besar.
     </string>
 
     <string name="nim_about">11S21010</string>

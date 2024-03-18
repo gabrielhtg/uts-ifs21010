@@ -73,40 +73,40 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
             R.drawable.velociraptor,
             "saurischia",
             "Velociraptor",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_2),
+            resources.getString(R.string.desc_lengkap_2)
         )
 
         val stegosaurus = Dino(
             R.drawable.stegosaurus,
             "ornithischia",
             "Stegosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_3),
+            resources.getString(R.string.desc_lengkap_3)
         )
 
         val hadrosaurus = Dino(
             R.drawable.hadrosaurus,
             "ornithischia",
             "Hadrosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_4),
+            resources.getString(R.string.desc_lengkap_4)
         )
 
         val allosaurus = Dino(
             R.drawable.allosaurus,
             "theropoda",
             "Allosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_5),
+            resources.getString(R.string.desc_lengkap_5)
         )
 
         val diplodocus = Dino(
             R.drawable.diplodocus,
             "sauropodomorpha",
             "Diplodocus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_6),
+            resources.getString(R.string.desc_lengkap_6)
         )
 
         val brachiosaurus = Dino(
