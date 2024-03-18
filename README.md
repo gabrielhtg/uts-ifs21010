@@ -1,5 +1,5 @@
 # DinoPedia
 
 Nama : Gabriel Cesar Hutagalung
-\nNIM : 11S21010
-\nProdi : S1 Informatika
+<br>NIM : 11S21010
+<br>Prodi : S1 Informatika
