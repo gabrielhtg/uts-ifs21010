@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PlanetsApp"
         tools:targetApi="31">
         <activity
+            android:name=".AllDinoActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailDinoActivity"
             android:exported="false" />
         <activity

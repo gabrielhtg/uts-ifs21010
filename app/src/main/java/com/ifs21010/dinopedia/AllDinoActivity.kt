@@ -2,9 +2,7 @@ package com.ifs21010.dinopedia
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,52 +10,31 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class DetailDinoFamilyActivity : AppCompatActivity() {
+class AllDinoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_detail_dino_family)
+        setContentView(R.layout.activity_all_dino)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        val recyclerView: RecyclerView = findViewById(R.id.recycleview_dino)
+        val recyclerView: RecyclerView = findViewById(R.id.recyclerview)
+        val buttonAbout : ImageButton = findViewById(R.id.button_profile)
+
+        buttonAbout.setOnClickListener {
+            startActivity(Intent(this, AboutActivity::class.java))
+        }
+
         recyclerView.layoutManager = LinearLayoutManager(
             this,
             LinearLayoutManager.VERTICAL,
             false
         )
 
-        val gambarDinoFamily = intent.getIntExtra("gambarDinoFamily", 0)
-        val namaDinoFamily = intent.getStringExtra("namaDinoFamily")
-        val descSingkatDinoFamily = intent.getIntExtra("descSingkatDinoFamily", 0)
-        val descLengkapDinoFamily = intent.getStringExtra("descLengkapDinoFamily")
-
-        val gambarDinoFamilyImageView : ImageView = findViewById(R.id.gambar_planet_detail)
-        val namaDinoFamilyTextView : TextView = findViewById(R.id.nama_planet_detail)
-        val descLengkapDinoFamilyTextView : TextView = findViewById(R.id.detail_planet)
-        findViewById<TextView>(R.id.nama_planet_toolbar).text = namaDinoFamily
-
-        gambarDinoFamilyImageView.setImageResource(gambarDinoFamily)
-        namaDinoFamilyTextView.text = namaDinoFamily
-        descLengkapDinoFamilyTextView.text = descLengkapDinoFamily
-
-        val tombolBack : ImageView = findViewById(R.id.tombol_back_about)
-        val tombolShare : Button = findViewById(R.id.all_dino)
-
-        tombolBack.setOnClickListener {
-            finish()
-        }
-
-        tombolShare.setOnClickListener {
-            val intent = Intent(this, AllDinoActivity::class.java)
-            startActivity(intent)
-        }
-
         val listDinoTemp : ArrayList<Dino> = ArrayList()
-        val listDino : ArrayList<Dino> = ArrayList()
 
         val tyrannosaurusRex = Dino(
             R.drawable.tyrannosaurus_rex,
@@ -204,16 +181,7 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
         listDinoTemp.add(pteranodon)
         listDinoTemp.add(quetzalcoatlus)
 
-        listDinoTemp.forEach { dino ->
-            if (namaDinoFamily != null) {
-                if (dino.family.lowercase() == namaDinoFamily.lowercase()) {
-                    listDino.add(dino)
-                }
-            }
-        }
-
-        val adapter = MyDinoAdapter(listDino)
+        val adapter = MyDinoAdapter(listDinoTemp)
         recyclerView.adapter = adapter
     }
-
 }
