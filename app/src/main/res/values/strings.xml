@@ -100,6 +100,16 @@ Allosaurus (bahasa Yunani: Allos; berbeda, aneh, dan Sauros; kadal) merupakan di
         Diplodocus mungkin termasuk dalam sepuluh dinosaurus terbesar, dengan panjang 31 m. Tingginya sekitar 5 m, terhitung pendek bagi Sauropoda kebanyakan. Berat sekitar 20 ton yang terhitung ringan karena tulang-tulangnya berrongga. Pada ilustrasi dinosaurus awal, binatang ini sering digambarkan hidup di rawa dengan leher yang menjulur melengkung ke atas seperti angsa dan ekor yang diseret. Namun kini para ahli sudah menepis rekonstruksi itu karena diyakini luas Diplodocus tidak bisa menegakkan lehernya ke atas yang hanya akan memecahkan pembuluh darah oleh tekanan untuk mengangkut oksigen dari jantung ke otak. Dan karena tulang serta otot ekornya amat kuat, Diplodocus tidak mungkin menyeret ekornya, melainkan mengangkatnya untuk menyeimbangkan leher dan kepalanya yang besar.
     </string>
 
+    <string name="desc_singkat_7">
+        Brachiosaurus (Pelafalan Inggris: /ˌbrækiəˈsɔːrəs/) adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.
+    </string>
+
+    <string name="desc_lengkap_7">
+        Brachiosaurus (Pelafalan Inggris: /ˌbrækiəˈsɔːrəs/) adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.[2] Dinosaurus ini pertama kali dijelaskan oleh paleontolog Amerika bernama Elmer S. Riggs pada tahun 1903 dari fosil-fosil yang ditemukan di lembah Sungai Colorado di Colorado barat, Amerika Serikat. Riggs menamai dinosaurus ini Brachiosaurus altithorax nama generiknya adalah bahasa Yunani untuk "kadal lengan", dikarenakan proporsi lengannya yang panjang, dan nama spesifik berarti "dada dalam". Panjang Brachiosaurus diperkirakan antara 18 dan 26 meter (59 dan 85 kaki), bobotnya diperkirakan mencapai 28 sampai 58 ton metrik (31 and 64 ton pendek). Dinosaurus ini memiliki leher panjang yang tidak proporsional, tengkorak kecil, dan berukuran besar secara keseluruhan, yang merupakan ciri-ciri khas sauropoda. Ciri Brachiosaurus yang bukan merupakan ciri khas sebagian besar sauropoda adalah kaki depan yang lebih panjang daripada kaki belakang, yang membuat badan yang cenderung curam, dan ekor yang lebih pendek secara proporsional.
+
+\n\nNama genus Brachiosaurus menjadi asal nama famili Brachiosauridae, yang mengandung beberapa sauropoda lainnya yang mirip dengan Brachiosaurus. Faktanya, penggambaran Brachiosaurus yang paling populer dibuat berdasarkan Giraffatitan, genus dinosaurus brachiosaurid dari Formasi Tendaguru di Tanzania. Giraffatitan awalnya dijelaskan oleh paleontolog asal Jerman bernama Werner Janensch pada 1914 sebagai spesies Brachiosaurus, B. brancai, namun dipindahkan ke genusnya sendiri pada tahun 2009. Tiga spesies Brachiosaurus lainnya dinamai berdasarkan fosil-fosil yang ditemukan di Afrika dan Eropa keduanya tidak lagi dianggap valid, dan yang ketiga telah menjadi genus terpisah, Lusotitan.
+    </string>
+
     <string name="nim_about">11S21010</string>
     <string name="nama_about">Gabriel Cesar Hutagalung</string>
 </resources>

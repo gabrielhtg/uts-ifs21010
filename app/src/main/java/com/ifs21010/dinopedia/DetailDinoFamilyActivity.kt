@@ -111,8 +111,8 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
             R.drawable.brachiosaurus,
             "sauropodomorpha",
             "brachiosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getString(R.string.desc_singkat_7),
+            resources.getString(R.string.desc_lengkap_7)
         )
 
         val apatosaurus = Dino(
