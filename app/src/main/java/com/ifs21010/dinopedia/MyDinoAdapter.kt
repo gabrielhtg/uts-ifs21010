@@ -17,19 +17,28 @@ class MyDinoAdapter (val dinoList : ArrayList<Dino>) : RecyclerView.Adapter<MyDi
 
         init {
             gambarDino = dinoView.findViewById(R.id.imageView)
-            namaDino = dinoView.findViewById(R.id.nama_planet)
-            descSingkatDino = dinoView.findViewById(R.id.deskripsi)
+            namaDino = dinoView.findViewById(R.id.family_name)
+            descSingkatDino = dinoView.findViewById(R.id.familyDesc)
 
             dinoView.setOnClickListener (this)
         }
 
         override fun onClick(v: View?) {
             val position = adapterPosition
+            val currentDino = dinoList[position]
+
             val intent = Intent(v!!.context, DetailDinoActivity::class.java).apply {
-                putExtra("gambarDino", dinoList[position].gambarDino)
-                putExtra("namaDino", dinoList[position].namaDino)
-                putExtra("descSingkatDino", dinoList[position].descSingkatDino)
-                putExtra("descLengkapDino", dinoList[position].descLengkapDino)
+                putExtra("dinoImage", currentDino.dinoImage)
+                putExtra("dinoName", currentDino.dinoName)
+                putExtra("dinoDesc", currentDino.dinoDesc)
+                putExtra("dinoChar", currentDino.dinoKarakter)
+                putExtra("dinoGroup", currentDino.dinoKelompok)
+                putExtra("dinoHabitat", currentDino.dinoHabitat)
+                putExtra("dinoDiet", currentDino.dinoMakanan)
+                putExtra("dinoLength", currentDino.dinoPanjang)
+                putExtra("dinoHeigt", currentDino.dinoTinggi)
+                putExtra("dinoWeight", currentDino.dinoBobot)
+                putExtra("dinoWeakness", currentDino.dinoKelemahan)
             }
             v.context.startActivity(intent)
         }
@@ -46,8 +55,8 @@ class MyDinoAdapter (val dinoList : ArrayList<Dino>) : RecyclerView.Adapter<MyDi
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.namaDino.text = dinoList[position].namaDino
-        holder.descSingkatDino.text = dinoList[position].descSingkatDino
-        holder.gambarDino.setImageResource(dinoList[position].gambarDino)
+        holder.namaDino.text = dinoList[position].dinoName
+        holder.descSingkatDino.text = dinoList[position].dinoDesc
+        holder.gambarDino.setImageResource(dinoList[position].dinoImage)
     }
 }

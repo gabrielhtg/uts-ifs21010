@@ -20,19 +20,28 @@ class DetailDinoActivity : AppCompatActivity() {
             insets
         }
 
-        val gambarDino = intent.getIntExtra("gambarDino", 0)
-        val namaDino = intent.getStringExtra("namaDino")
-        val descSingkatDino = intent.getIntExtra("descSingkatDino", 0)
-        val descLengkapDino = intent.getStringExtra("descLengkapDino")
+        val dinoImage = intent.getIntExtra("dinoImage", 0)
+        val dinoName = intent.getStringExtra("dinoName")
+        val dinoDesc = intent.getStringExtra("dinoDesc")
+        val dinoChar = intent.getStringExtra("dinoChar")
+        val dinoGroup = intent.getStringExtra("dinoGroup")
+        val dinoHabitat = intent.getStringExtra("dinoHabitat")
+        val dinoDiet = intent.getStringExtra("dinoDiet")
+        val dinoLength = intent.getStringExtra("dinoLength")
+        val dinoWeight = intent.getStringExtra("dinoWeight")
+        val dinoHeight = intent.getStringExtra("dinoHeight")
+        val dinoWeakness = intent.getStringExtra("dinoWeakness")
 
-        val gambarDinoFamilyImageView : ImageView = findViewById(R.id.gambar_dino_detail)
-        val namaDinoFamilyTextView : TextView = findViewById(R.id.nama_dino_detail)
-        val descLengkapDinoFamilyTextView : TextView = findViewById(R.id.detail_dino)
-        findViewById<TextView>(R.id.nama_planet_toolbar).text = namaDino
-
-        gambarDinoFamilyImageView.setImageResource(gambarDino)
-        namaDinoFamilyTextView.text = namaDino
-        descLengkapDinoFamilyTextView.text = descLengkapDino
+        findViewById<TextView>(R.id.nama_dino_detail).text = dinoName
+        findViewById<ImageView>(R.id.gambar_dino_detail).setImageResource(dinoImage)
+        findViewById<TextView>(R.id.content_dino_description).text = dinoDesc
+        findViewById<TextView>(R.id.content_dino_characteristics).text = dinoChar
+        findViewById<TextView>(R.id.content_dino_group).text = dinoGroup
+        findViewById<TextView>(R.id.content_dino_habitat).text = dinoHabitat
+        findViewById<TextView>(R.id.content_dino_diet).text = dinoDiet
+        findViewById<TextView>(R.id.content_dino_length).text = dinoLength
+        findViewById<TextView>(R.id.content_dino_weight).text = dinoWeight
+        findViewById<TextView>(R.id.content_dino_weakness).text = dinoWeakness
 
         val tombolBack : ImageView = findViewById(R.id.tombol_back_about)
         val tombolShare : ImageView = findViewById(R.id.tombol_share)
@@ -44,7 +53,7 @@ class DetailDinoActivity : AppCompatActivity() {
         tombolShare.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
-            intent.putExtra(Intent.EXTRA_TEXT, "${namaDinoFamilyTextView.text}\n\n${descSingkatDino}")
+            intent.putExtra(Intent.EXTRA_TEXT, "${dinoName}\n\n${dinoDesc}")
             startActivity(Intent.createChooser(intent, "Bagikan melalui"))
         }
     }

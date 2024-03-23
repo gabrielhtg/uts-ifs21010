@@ -23,35 +23,40 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
             insets
         }
 
-        val recyclerView: RecyclerView = findViewById(R.id.recycleview_dino)
+        val recyclerView: RecyclerView = findViewById(R.id.dinosaur_family_recycle)
         recyclerView.layoutManager = LinearLayoutManager(
             this,
             LinearLayoutManager.VERTICAL,
             false
         )
 
-        val gambarDinoFamily = intent.getIntExtra("gambarDinoFamily", 0)
-        val namaDinoFamily = intent.getStringExtra("namaDinoFamily")
-        val descSingkatDinoFamily = intent.getIntExtra("descSingkatDinoFamily", 0)
-        val descLengkapDinoFamily = intent.getStringExtra("descLengkapDinoFamily")
+        val familyName = intent.getStringExtra("familyName")
+        val familyImage = intent.getIntExtra("familyImage", 0)
+        val familyDesc = intent.getStringExtra("familyDescription")
+        val familyLifePeriod = intent.getStringExtra("familyLifePeriod")
+        val familyPhysical = intent.getStringExtra("familyPhysical")
+        val familyHabitat = intent.getStringExtra("familyHabitat")
+        val familyBehavior = intent.getStringExtra("familyBehavior")
+        val familyClassification = intent.getStringExtra("familyClassification")
 
-        val gambarDinoFamilyImageView : ImageView = findViewById(R.id.gambar_planet_detail)
-        val namaDinoFamilyTextView : TextView = findViewById(R.id.nama_planet_detail)
-        val descLengkapDinoFamilyTextView : TextView = findViewById(R.id.detail_planet)
-        findViewById<TextView>(R.id.nama_planet_toolbar).text = namaDinoFamily
-
-        gambarDinoFamilyImageView.setImageResource(gambarDinoFamily)
-        namaDinoFamilyTextView.text = namaDinoFamily
-        descLengkapDinoFamilyTextView.text = descLengkapDinoFamily
+        findViewById<TextView>(R.id.family_name_toolbar).text = familyName
+        findViewById<ImageView>(R.id.gambar_famili).setImageResource(familyImage)
+        findViewById<TextView>(R.id.nama_famili_dino).text = familyName
+        findViewById<TextView>(R.id.content_deskripsi).text = familyDesc
+        findViewById<TextView>(R.id.content_life_period).text = familyLifePeriod
+        findViewById<TextView>(R.id.content_pyshical).text = familyPhysical
+        findViewById<TextView>(R.id.content_habitat).text = familyHabitat
+        findViewById<TextView>(R.id.content_behavior).text = familyBehavior
+        findViewById<TextView>(R.id.content_classification).text = familyClassification
 
         val tombolBack : ImageView = findViewById(R.id.tombol_back_about)
-        val tombolShare : Button = findViewById(R.id.all_dino)
+        val tombolAllDino : Button = findViewById(R.id.all_dino)
 
         tombolBack.setOnClickListener {
             finish()
         }
 
-        tombolShare.setOnClickListener {
+        tombolAllDino.setOnClickListener {
             val intent = Intent(this, AllDinoActivity::class.java)
             startActivity(intent)
         }
@@ -63,128 +68,242 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
             R.drawable.tyrannosaurus_rex,
             "saurischia",
             "Tyrannosaurus Rex",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.tyran)[0],
+            resources.getStringArray(R.array.tyran)[1],
+            resources.getStringArray(R.array.tyran)[2],
+            resources.getStringArray(R.array.tyran)[3],
+            resources.getStringArray(R.array.tyran)[4],
+            resources.getStringArray(R.array.tyran)[5],
+            resources.getStringArray(R.array.tyran)[6],
+            resources.getStringArray(R.array.tyran)[7],
+            resources.getStringArray(R.array.tyran)[8]
         )
 
         val velociraptor = Dino(
             R.drawable.velociraptor,
             "saurischia",
             "Velociraptor",
-            resources.getString(R.string.desc_singkat_2),
-            resources.getString(R.string.desc_lengkap_2)
+            resources.getStringArray(R.array.velociraptor_dinosaur)[0],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[1],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[2],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[3],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[4],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[5],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[6],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[7],
+            resources.getStringArray(R.array.velociraptor_dinosaur)[8]
         )
 
         val stegosaurus = Dino(
             R.drawable.stegosaurus,
             "ornithischia",
             "Stegosaurus",
-            resources.getString(R.string.desc_singkat_3),
-            resources.getString(R.string.desc_lengkap_3)
+            resources.getStringArray(R.array.stegosaurus)[0],
+            resources.getStringArray(R.array.stegosaurus)[1],
+            resources.getStringArray(R.array.stegosaurus)[2],
+            resources.getStringArray(R.array.stegosaurus)[3],
+            resources.getStringArray(R.array.stegosaurus)[4],
+            resources.getStringArray(R.array.stegosaurus)[5],
+            resources.getStringArray(R.array.stegosaurus)[6],
+            resources.getStringArray(R.array.stegosaurus)[7],
+            resources.getStringArray(R.array.stegosaurus)[8]
         )
 
         val hadrosaurus = Dino(
             R.drawable.hadrosaurus,
             "ornithischia",
             "Hadrosaurus",
-            resources.getString(R.string.desc_singkat_4),
-            resources.getString(R.string.desc_lengkap_4)
+            resources.getStringArray(R.array.hadrosaurus)[0],
+            resources.getStringArray(R.array.hadrosaurus)[1],
+            resources.getStringArray(R.array.hadrosaurus)[2],
+            resources.getStringArray(R.array.hadrosaurus)[3],
+            resources.getStringArray(R.array.hadrosaurus)[4],
+            resources.getStringArray(R.array.hadrosaurus)[5],
+            resources.getStringArray(R.array.hadrosaurus)[6],
+            resources.getStringArray(R.array.hadrosaurus)[7],
+            resources.getStringArray(R.array.hadrosaurus)[8]
         )
 
         val allosaurus = Dino(
             R.drawable.allosaurus,
             "theropoda",
             "Allosaurus",
-            resources.getString(R.string.desc_singkat_5),
-            resources.getString(R.string.desc_lengkap_5)
+            resources.getStringArray(R.array.allosaurus)[0],
+            resources.getStringArray(R.array.allosaurus)[1],
+            resources.getStringArray(R.array.allosaurus)[2],
+            resources.getStringArray(R.array.allosaurus)[3],
+            resources.getStringArray(R.array.allosaurus)[4],
+            resources.getStringArray(R.array.allosaurus)[5],
+            resources.getStringArray(R.array.allosaurus)[6],
+            resources.getStringArray(R.array.allosaurus)[7],
+            resources.getStringArray(R.array.allosaurus)[8]
         )
 
         val diplodocus = Dino(
             R.drawable.diplodocus,
             "sauropodomorpha",
             "Diplodocus",
-            resources.getString(R.string.desc_singkat_6),
-            resources.getString(R.string.desc_lengkap_6)
+            resources.getStringArray(R.array.diplodocus)[0],
+            resources.getStringArray(R.array.diplodocus)[1],
+            resources.getStringArray(R.array.diplodocus)[2],
+            resources.getStringArray(R.array.diplodocus)[3],
+            resources.getStringArray(R.array.diplodocus)[4],
+            resources.getStringArray(R.array.diplodocus)[5],
+            resources.getStringArray(R.array.diplodocus)[6],
+            resources.getStringArray(R.array.diplodocus)[7],
+            resources.getStringArray(R.array.diplodocus)[8]
         )
 
         val brachiosaurus = Dino(
             R.drawable.brachiosaurus,
             "sauropodomorpha",
-            "brachiosaurus",
-            resources.getString(R.string.desc_singkat_7),
-            resources.getString(R.string.desc_lengkap_7)
+            "Brachiosaurus",
+            resources.getStringArray(R.array.brachiosaurus)[0],
+            resources.getStringArray(R.array.brachiosaurus)[1],
+            resources.getStringArray(R.array.brachiosaurus)[2],
+            resources.getStringArray(R.array.brachiosaurus)[3],
+            resources.getStringArray(R.array.brachiosaurus)[4],
+            resources.getStringArray(R.array.brachiosaurus)[5],
+            resources.getStringArray(R.array.brachiosaurus)[6],
+            resources.getStringArray(R.array.brachiosaurus)[7],
+            resources.getStringArray(R.array.brachiosaurus)[8]
         )
 
         val apatosaurus = Dino(
             R.drawable.apatosaurus,
             "sauropodomorpha",
             "apatosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.apatosaurus)[0],
+            resources.getStringArray(R.array.apatosaurus)[1],
+            resources.getStringArray(R.array.apatosaurus)[2],
+            resources.getStringArray(R.array.apatosaurus)[3],
+            resources.getStringArray(R.array.apatosaurus)[4],
+            resources.getStringArray(R.array.apatosaurus)[5],
+            resources.getStringArray(R.array.apatosaurus)[6],
+            resources.getStringArray(R.array.apatosaurus)[7],
+            resources.getStringArray(R.array.apatosaurus)[8]
         )
 
         val iguanodon = Dino(
             R.drawable.iguanodon,
             "ornithopoda",
             "Iguanodon",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.iguanodon)[0],
+            resources.getStringArray(R.array.iguanodon)[1],
+            resources.getStringArray(R.array.iguanodon)[2],
+            resources.getStringArray(R.array.iguanodon)[3],
+            resources.getStringArray(R.array.iguanodon)[4],
+            resources.getStringArray(R.array.iguanodon)[5],
+            resources.getStringArray(R.array.iguanodon)[6],
+            resources.getStringArray(R.array.iguanodon)[7],
+            resources.getStringArray(R.array.iguanodon)[8]
         )
 
         val edmontosaurus = Dino(
             R.drawable.edmontosaurus,
             "ornithopoda",
             "Edmontosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.edmontosaurus)[0],
+            resources.getStringArray(R.array.edmontosaurus)[1],
+            resources.getStringArray(R.array.edmontosaurus)[2],
+            resources.getStringArray(R.array.edmontosaurus)[3],
+            resources.getStringArray(R.array.edmontosaurus)[4],
+            resources.getStringArray(R.array.edmontosaurus)[5],
+            resources.getStringArray(R.array.edmontosaurus)[6],
+            resources.getStringArray(R.array.edmontosaurus)[7],
+            resources.getStringArray(R.array.edmontosaurus)[8]
         )
 
         val parasaurolophus = Dino(
             R.drawable.parasaurolophus,
             "ornithopoda",
             "Parasaurolophus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.parasaurolophus)[0],
+            resources.getStringArray(R.array.parasaurolophus)[1],
+            resources.getStringArray(R.array.parasaurolophus)[2],
+            resources.getStringArray(R.array.parasaurolophus)[3],
+            resources.getStringArray(R.array.parasaurolophus)[4],
+            resources.getStringArray(R.array.parasaurolophus)[5],
+            resources.getStringArray(R.array.parasaurolophus)[6],
+            resources.getStringArray(R.array.parasaurolophus)[7],
+            resources.getStringArray(R.array.parasaurolophus)[8]
         )
 
         val triceratops = Dino(
             R.drawable.triceratops,
             "ceratopsia",
             "Triceratops",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.triceratops)[0],
+            resources.getStringArray(R.array.triceratops)[1],
+            resources.getStringArray(R.array.triceratops)[2],
+            resources.getStringArray(R.array.triceratops)[3],
+            resources.getStringArray(R.array.triceratops)[4],
+            resources.getStringArray(R.array.triceratops)[5],
+            resources.getStringArray(R.array.triceratops)[6],
+            resources.getStringArray(R.array.triceratops)[7],
+            resources.getStringArray(R.array.triceratops)[8]
         )
 
         val styracosaurus = Dino(
             R.drawable.styracosaurus,
             "ceratopsia",
             "Styracosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.styracosaurus)[0],
+            resources.getStringArray(R.array.styracosaurus)[1],
+            resources.getStringArray(R.array.styracosaurus)[2],
+            resources.getStringArray(R.array.styracosaurus)[3],
+            resources.getStringArray(R.array.styracosaurus)[4],
+            resources.getStringArray(R.array.styracosaurus)[5],
+            resources.getStringArray(R.array.styracosaurus)[6],
+            resources.getStringArray(R.array.styracosaurus)[7],
+            resources.getStringArray(R.array.styracosaurus)[8]
         )
 
         val ankylosaurus = Dino(
             R.drawable.ankylosaurus,
             "ankylosauria",
             "Ankylosaurus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
-        )
+            resources.getStringArray(R.array.ankylosaurus)[0],
+            resources.getStringArray(R.array.ankylosaurus)[1],
+            resources.getStringArray(R.array.ankylosaurus)[2],
+            resources.getStringArray(R.array.ankylosaurus)[3],
+            resources.getStringArray(R.array.ankylosaurus)[4],
+            resources.getStringArray(R.array.ankylosaurus)[5],
+            resources.getStringArray(R.array.ankylosaurus)[6],
+            resources.getStringArray(R.array.ankylosaurus)[7],
+            resources.getStringArray(R.array.ankylosaurus)[8]
+
+            )
 
         val pteranodon = Dino(
             R.drawable.pteranodon,
             "pterosauria",
             "Pteranodon",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
-        )
+            resources.getStringArray(R.array.pteranodon)[0],
+            resources.getStringArray(R.array.pteranodon)[1],
+            resources.getStringArray(R.array.pteranodon)[2],
+            resources.getStringArray(R.array.pteranodon)[3],
+            resources.getStringArray(R.array.pteranodon)[4],
+            resources.getStringArray(R.array.pteranodon)[5],
+            resources.getStringArray(R.array.pteranodon)[6],
+            resources.getStringArray(R.array.pteranodon)[7],
+            resources.getStringArray(R.array.pteranodon)[8]
+
+            )
 
         val quetzalcoatlus = Dino(
             R.drawable.quetzalcoatlus,
             "pterosauria",
             "Quetzalcoatlus",
-            resources.getString(R.string.desc_singkat_1),
-            resources.getString(R.string.desc_lengkap_1)
+            resources.getStringArray(R.array.quetzalcoatlus)[0],
+            resources.getStringArray(R.array.quetzalcoatlus)[1],
+            resources.getStringArray(R.array.quetzalcoatlus)[2],
+            resources.getStringArray(R.array.quetzalcoatlus)[3],
+            resources.getStringArray(R.array.quetzalcoatlus)[4],
+            resources.getStringArray(R.array.quetzalcoatlus)[5],
+            resources.getStringArray(R.array.quetzalcoatlus)[6],
+            resources.getStringArray(R.array.quetzalcoatlus)[7],
+            resources.getStringArray(R.array.quetzalcoatlus)[8]
         )
 
         listDinoTemp.add(tyrannosaurusRex)
@@ -205,8 +324,8 @@ class DetailDinoFamilyActivity : AppCompatActivity() {
         listDinoTemp.add(quetzalcoatlus)
 
         listDinoTemp.forEach { dino ->
-            if (namaDinoFamily != null) {
-                if (dino.family.lowercase() == namaDinoFamily.lowercase()) {
+            if (familyName != null) {
+                if (dino.dinoFamily.lowercase() == familyName.lowercase()) {
                     listDino.add(dino)
                 }
             }

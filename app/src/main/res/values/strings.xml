@@ -1,114 +1,810 @@
 <resources>
     <string name="app_name">DinoPedia</string>
 
-    <string name="desc_singkat_saurischia">Termasuk theropoda (seperti Tyrannosaurus rex dan Velociraptor) dan sauropodomorpha (seperti Brachiosaurus dan Diplodocus)</string>
-    <string name="desc_singkat_ornithischia">Termasuk herbivora seperti Triceratops, Stegosaurus, dan Hadrosaurus</string>
-    <string name="desc_singkat_theropoda">Sebagian besar adalah dinosaurus karnivora dengan cakar dan gigi yang tajam. Biasanya memiliki tubuh ramping, cakar, dan gigi tajam</string>
-    <string name="desc_singkat_sauropodomorpha">Kelompok ini terdiri dari dinosaurus herbivora dengan leher panjang dan tubuh besar</string>
-    <string name="desc_singkat_ornithopoda">Dinosaurs herbivora dengan struktur gigi yang unik, sering kali memiliki gigi yang berbentuk seperti paruh</string>
-    <string name="desc_singkat_ceratopsia">Dinosaurs herbivora dengan tanduk dan tanduk yang khas di kepala</string>
-    <string name="desc_singkat_ankylosauria">Dinosaurs herbivora yang dilengkapi dengan pelindung dan tulang yang tebal untuk perlindungan</string>
-    <string name="desc_singkat_pterosauria">Meskipun bukan dinosaurus, pterosauria adalah reptil terbang dari periode Mesozoikum yang sering disebut sebagai "reptil terbang"</string>
+    <string-array name="theropods">
+        <item>
+            Theropods are an order of bipedal carnivorous dinosaurs that includes various types of famous predators such as Tyrannosaurus rex and Velociraptor. They have distinctive characteristics such as long legs, sharp claws, and large heads with sharp teeth.
+        </item>
 
-    <string name="desc_lengkap_saurischia">
-        Deskripsi :
-        \n\nSaurischia adalah kelompok dinosaurus yang terdiri dari dua subkelompok utama: theropoda dan sauropodomorpha. Theropoda adalah dinosaurus karnivora yang sering kali memiliki cakar dan gigi tajam untuk berburu mangsa. Contoh terkenal dari theropoda termasuk Tyrannosaurus rex dan Velociraptor. Di sisi lain, sauropodomorpha adalah dinosaurus herbivora dengan leher panjang dan tubuh besar yang sering digunakan untuk mencari makanan di kanopi pohon-pohon. Brachiosaurus dan Diplodocus adalah contoh terkenal dari sauropodomorpha.
+        <item>
+            They lived during the Mesozoic period, especially during the Jurassic and Cretaceous periods, about 230 to 65 million years ago.
+        </item>
 
-        \n\n\nPeriode Hidup : Jura - Kapur
+        <item>
+            Theropods physical characteristics include large or small bodies, long legs, short (relatively) arms, sharp claws, and strong, sharp teeth for hunting and chewing prey.
+        </item>
 
-        \n\n\nKarakteristik :
+        <item>
+            Theropods are found in a variety of habitats, from grasslands to rainforests, and even in coastal areas. They are widespread throughout the world, covering various environments from ancient times.
+        </item>
 
-        \n\nKarakteristik fisik Saurischia bervariasi tergantung pada subkelompoknya. Theropoda umumnya merupakan dinosaurus karnivora dengan cakar dan gigi tajam, sedangkan Sauropodomorpha memiliki tubuh besar dan leher panjang yang digunakan untuk mencari makanan di kanopi pohon-pohon.
+        <item>
+            Theropods are active predators, hunting using speed, intelligence, and sharp claws and teeth to attack their prey. Some Theropod species, such as Velociraptor, are believed to have social behavior and may have hunted in groups.
+        </item>
 
-        \n\n\nHabitat :
+        <item>
+            Kingdom Animalia (Animals), Phylum Chordata (Chordata), Class Reptilia (Reptiles), Order Saurischia (Saurischia), Suborder Theropoda (Theropoda).
+        </item>
+    </string-array>
 
-        \n\nBeragam, mulai dari hutan hujan hingga dataran terbuka.
+    <string-array name="saurischia">
+        <item>
+            Saurischia is one of the two primary divisions of dinosaurs, characterized by their lizard-like hips. The name "Saurischia" means "lizard-hipped." This group includes some of the most well-known dinosaurs such as Tyrannosaurus rex, Velociraptor, and Brachiosaurus.
+        </item>
 
-        \n\n\nPerilaku :
+        <item>
+            Saurischian dinosaurs lived during the Mesozoic Era, which spanned from approximately 252 to 66 million years ago.
+        </item>
 
-        \n\nPerilaku Saurischia bervariasi tergantung pada subkelompoknya. Theropoda biasanya aktif dan pemangsa yang efisien, sedangkan Sauropodomorpha cenderung lebih tenang dan memakan tumbuhan secara terus-menerus.
+        <item>
+            Saurischian dinosaurs typically possessed long necks and tails, as well as a wide range of body sizes, from small, agile predators to massive, herbivorous giants. Their defining feature is the structure of their pelvis, which resembled that of modern reptiles.
+        </item>
 
-        \n\n\nKlasifikasi :
+        <item>
+            These dinosaurs inhabited a variety of environments, including lush forests, open plains, and coastal regions. They were distributed across the globe, from polar regions to equatorial zones.
+        </item>
 
-        \n\nKlasifikasi Saurischia mencakup dua subkelompok utama: Theropoda (dinosaurus karnivora) dan Sauropodomorpha (dinosaurus herbivora dengan leher panjang).
-    </string>
-    <string name="desc_lengkap_ornithischia">Ornithischia adalah kelompok dinosaurus herbivora yang termasuk Triceratops, Stegosaurus, dan Hadrosaurus. Kelompok ini memiliki struktur gigi yang unik, sering kali dengan gigi yang berbentuk seperti paruh. Mereka umumnya memiliki tubuh yang besar dan kuat untuk mengolah makanan tumbuhan yang keras, seperti dedaunan dan tumbuhan semak.</string>
-    <string name="desc_lengkap_theropoda">Theropoda adalah kelompok dinosaurus karnivora yang mencakup beberapa spesies yang paling terkenal, seperti Tyrannosaurus rex dan Velociraptor. Mereka memiliki tubuh ramping dengan cakar dan gigi tajam yang digunakan untuk berburu mangsa. Beberapa theropoda juga mampu bergerak dengan cepat dan menggunakan kecerdasan mereka untuk memburu secara efektif.</string>
-    <string name="desc_lengkap_sauropodomorpha">Sauropodomorpha adalah kelompok dinosaurus herbivora dengan leher panjang dan tubuh besar yang sering kali digunakan untuk mencari makanan di kanopi pohon-pohon. Mereka adalah dinosaurus berukuran besar yang memiliki struktur tubuh yang kuat dan kuat untuk mendukung berat badannya yang besar. Beberapa spesies, seperti Brachiosaurus, bahkan mungkin memiliki leher yang dapat mencapai tinggi hingga 30 kaki atau lebih.</string>
-    <string name="desc_lengkap_ornithopoda">Ornithopoda adalah kelompok dinosaurus herbivora dengan struktur gigi yang unik, sering kali dengan gigi yang berbentuk seperti paruh. Mereka adalah dinosaurus berukuran sedang hingga besar yang memiliki tubuh yang kuat untuk mengolah makanan tumbuhan yang keras. Beberapa ornithopoda mungkin membentuk kelompok besar untuk melindungi diri dari pemangsa, sementara yang lain mungkin memiliki kemampuan untuk bergerak cepat untuk menghindari bahaya.</string>
-    <string name="desc_lengkap_ceratopsia">Ceratopsia adalah kelompok dinosaurus herbivora yang memiliki tanduk dan tanduk yang khas di kepala. Mereka umumnya adalah dinosaurus berukuran besar dengan tubuh yang kokoh dan kuat. Beberapa ceratopsia, seperti Triceratops, memiliki tanduk besar yang mungkin digunakan untuk bertarung atau menunjukkan dominasi dalam kelompok.</string>
-    <string name="desc_lengkap_ankylosauria">Ankylosauria adalah kelompok dinosaurus herbivora yang dilengkapi dengan pelindung dan tulang yang tebal untuk perlindungan. Mereka adalah dinosaurus berukuran sedang hingga besar yang memiliki baju besi berduri di punggung mereka. Beberapa spesies, seperti Ankylosaurus, bahkan mungkin memiliki baji besar di ekor mereka untuk mempertahankan diri dari serangan pemangsa.</string>
-    <string name="desc_lengkap_pterosauria">Pterosauria adalah kelompok reptil terbang dari periode Mesozoikum yang sering disebut sebagai "reptil terbang". Mereka memiliki sayap membran yang didukung oleh jari-jari panjang. Meskipun bukan dinosaurus, pterosauria adalah predator langit yang menakutkan, memanfaatkan kemampuan terbang mereka untuk berburu mangsa dan menghindari bahaya.</string>
+        <item>
+            Saurischian dinosaurs exhibited diverse behaviors depending on their ecological niche and dietary preferences. Some were apex predators, while others were herbivores or omnivores. They likely engaged in activities such as hunting, foraging, mating displays, and caring for offspring.
+        </item>
 
-    <string name="desc_singkat_1">
-                Tyrannosaurus[nb 1] adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam klad Coelurosauria.
-    </string>
+        <item>
+            Saurischia is further divided into two main groups: Theropoda and Sauropodomorpha. Theropods were primarily carnivorous dinosaurs, known for their bipedal stance and sharp teeth, while sauropodomorphs were long-necked, herbivorous dinosaurs characterized by their massive size and quadrupedal locomotion.
+        </item>
+    </string-array>
+    
+    <string-array name="ornithischians">
+        <item>
+            Ornithischia is an order of dinosaurs characterized by a characteristic skull shape that resembles a bird. They have teeth suitable for chewing plants and are generally herbivores.
+        </item>
 
-    <string name="desc_lengkap_1">
-        Tyrannosaurus[nb 1] adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam klad Coelurosauria. Spesies Tyrannosaurus rex (sering dijuluki T. rex atau T-Rex; "rex" berarti "raja" dalam bahasa Latin) adalah salah satu teropoda besar yang paling dikenal oleh khalayak luas. Tyrannosaurus hidup di sebuah benua yang dikenal dengan nama Laramidia, yang kini telah berubah menjadi Amerika Utara bagian barat. Tyrannosaurus jauh lebih tersebar daripada hewan-hewan Tyrannosauridae lainnya. Fosil-fosil Tyrannosaurus telah ditemukan di berbagai formasi geologi dari zaman Kapur Akhir sekitar 68 hingga 65 juta tahun yang lalu.[2] Tyrannosaurus merupakan salah satu dinosaurus nonburung terakhir sebelum terjadinya peristiwa kepunahan Kapur–Paleogen.
+        <item>
+            Late Triassic to Late Cretaceous period, about 230 to 66 million years ago.
+        </item>
 
-        \n\nSeperti hewan-hewan Tyrannosauridae lainnya, Tyrannosaurus adalah seekor karnivora bipedal dengan tengkorak besar yang diseimbangkan oleh ekornya yang berat dan panjang. Tyrannosaurus memiliki tungkai belakang yang kuat dan besar, sementara tungkai depannya pendek dan hanya memiliki dua jari. Spesimen Tyrannosaurus yang paling lengkap memiliki panjang 14 m,[3] tinggi 4 m di bagian panggul (titik tertinggi Tyrannosaurus karena hewan ini tidak dapat berdiri tegak),[4] dan menurut perkiraan yang paling modern mempunyai massa antara 8,4 hingga 14 ton.[3][5][6] Meskipun terdapat teropoda-teropoda lain dengan besar tubuh yang dapat menyaingi atau bahkan melebihi Tyrannosaurus rex, Tyrannosaurus masih menjadi salah satu predator darat terbesar yang pernah ditemukan dan diperkirakan memiliki gigitan terkuat di antara semua hewan yang hidup di darat.[7][8] Di lingkungannya, Tyrannosaurus rex merupakan karnivora terbesar, sehingga kemungkinan besar mereka adalah predator puncak yang memangsa Hadrosauridae, herbivora-herbivora seperti Ceratopsia dan Ankylosauria, dan mungkin juga Sauropoda.[9] Terdapat beberapa ahli yang meyakini bahwa Tyrannosaurus murni adalah seekor pemakan bangkai. Perdebatan mengenai jati diri Tyrannosaurus sebagai predator puncak atau pemakan bangkai merupakan salah satu perdebatan terpanjang dalam ilmu paleontologi. Sebagian besar ahli paleontologi saat ini berpegang pada kesimpulan bahwa Tyrannosaurus adalah seekor predator yang juga memakan bangkai.[10]
+        <item>
+            The characteristic of Ornithischia is a skull shape that resembles a bird\'s beak, knife-shaped teeth or molars that are suitable for chewing plants, and some species have various ornaments and decorative structures on their bodies.
+        </item>
 
-        \n\nSejauh ini telah ditemukan lebih dari 50 spesimen Tyrannosaurus rex, dan beberapa di antaranya hampir lengkap. Jaringan lunak dan protein telah didapati pada paling tidak satu spesimen. Berkat jumlah fosil yang berlimpah, peneliti dapat menyelidiki berbagai aspek biologisnya, termasuk sejarah kehidupan dan biomekanikanya. Perilaku makan, fisiologi, dan kecepatan potensial Tyrannosaurus rex merupakan beberapa subjek yang masih diperdebatkan. Taksonominya juga kontroversial, karena beberapa ilmuwan menganggap Tarbosaurus bataar dari Asia sebagai spesies Tyrannosaurus yang kedua, sementara yang lainnya menganggap Tarbosaurus sebagai genus yang terpisah. Beberapa genera Tyrannosauridae yang lain dari Amerika Utara juga telah disinonimkan dengan Tyrannosaurus.
-    </string>
+        <item>
+            Ornithischians live in a variety of habitats, including forests, lowlands, and floodplains. They were widespread throughout the world at that time.
+        </item>
 
-    <string name="desc_singkat_2">
-        Velociraptor (/vəˌlɒsɪˈræptər, vəˈlɒsɪræptər/;[1] terj. har. pencuri gesit) adalah genus dari dinosaurus Dromaeosaurid yang hidup di Asia pada kala Kapur Akhir, sekitar 75 hingga 71 juta tahun lalu. Dari genus tersebut, dua spesies sudah dideskripsikan.
-    </string>
+        <item>
+            Ornithischian behavior varies depending on the species. Some may live in flocks to protect themselves from predators, while others may be more inclined to live alone or in small groups.
+        </item>
 
-    <string name="desc_lengkap_2">
-        Lebih kecil daripada dromaeosaurida lainnya seperti Deinonychus dan Achillobator, genus ini memiliki panjang 1.5 - 2.07 m, dengan berat 14.1 - 19.7 kg. Velociraptor memiliki kesamaan fitur anatomis dengan anggota dromaeosaurid lainnya, yaitu memiliki tubuh berbulu[2] dan berkaki dua (bipedal) dengan ekor yang panjang serta cakar berbentuk sabit pada kedua kaki, yang dianggap digunakan untuk menjatuhkan dan menahan mangsa, serta memiliki gaya hidup sebagai karnivor.[3] Pembeda genus ini dengan dromaeosaurid lainnya adalah tengkoraknya yang panjang dan rendah, dengan moncong yang mengarah keatas. Velociraptor juga termasuk pintar bila dibandingkan dengan dinosurus lainnya, dan hal ini membuat mereka mampu bersaing dengan predator besar lain yang hidup di tempat yang sama. Fosilnya ditemukan di daerah Mongolia, Rusia, dan Cina.
+        <item>
+            Ornithischia is divided into several suborders and families, including Ceratopsia (horned dinosaurs), Hadrosauridae (duck dinosaurs), and Stegosauridae (stegosaurus dinosaurs), as well as several other groups.
+        </item>
+    </string-array>
 
-        \n\nSeperti dromaesaurid lainnya, Velociraptor merupakan sebuah pemburu soliter. Hal ini diketahui dengan analisa ratio karbon dari D. antirrhopus yang menunjukkan adanya perubahan diet seiring bertumbuh dewasa, sebuah perilaku yang masih dapat dilihat pada hewan-hewan soliter masa kini.[4]
-    </string>
+    <string-array name="sauropodomorpha">
+        <item>
+            Sauropodomorpha is an order of dinosaurs that is characterized by a large body, long neck and relatively short tail. They are large herbivores that generally lived in the Mezozoic period.
+        </item>
 
-    <string name="desc_singkat_3">
-        Stegosaurus (diucapkan /ˈsteg.əˌsɔː.rəs/) artinya "kadal beratap", karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara.
-    </string>
+        <item>
+            Late Triassic to Late Cretaceous period, about 230 to 66 million years ago.
+        </item>
 
-    <string name="desc_lengkap_3">
-        Stegosaurus (diucapkan /ˈsteg.əˌsɔː.rəs/) artinya "kadal beratap", karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara. Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya (dasar untuk nama ilmiahnya) dan 2 pasang duri panjang di ekornya (disebut thagomizer).
+        <item>
+            The main characteristics of Sauropodomorpha are a large and heavy body, a long neck, strong legs, and a relatively short tail. They have teeth suitable for chewing plants.
+        </item>
 
-        \n\nPaleontologis sempat memperdebatkan bagaimana sisik-sisik di punggung Stegosaurus tersusun. Karena sisik tersebut berada di atas lapisan otot punggung (paleontologis bahkan memperkirakan sisik tersebut memiliki pembuluh darah) maka saat Stegosaurus mati dan memfosil, sisik-sisik tersebut terlepas dan saling bertumpukan. Pendapat pertama mengatakan bahwa sisik Stegosaurus menutupi punggungnya, pendapat kedua mengatakan bahwa sisik-sisik tersebut berdiri tegak dan saling bersebelahan dan pendapat terakhir yang paling disetujui adalah sisik-sisiknya berdiri tegak dengan posisi saling silang.
+        <item>
+            Sauropodomorpha usually live in large areas with abundant vegetation, such as lowlands, floodplains, and tropical and subtropical forests.
+        </item>
 
-        \n\nSatu hal yang sering menimbulkan salah paham mengenai Stegosaurus adalah rongga pada ujung ekornya. Dahulu paleontologis mengira bahwa rongga tersebut berisi otak Stegosaurus, sehingga menimbulkan anggapan bahwa Stegosaurus merupakan dinosaurus yang pintar karena memiliki 2 otak. Belakangan diketahui bahwa anggapan tersebut adalah salah. Stegosaurus bukanlah dinosaurus yang cukup pintar karena otaknya hanya sebesar bola golf dan rongga pada ekor Stegosaurus adalah tempat melekatnya otot-otot ekor yang sangat kuat, yang digunakan sebagai alat pertahanan diri dengan mengayunkan ekor berdurinya sekeras mungkin ke arah penyerangnya.
-    </string>
+        <item>
+            Sauropodomorpha generally live in herds to protect themselves from predators and search for food. They may have migratory behavior in search of abundant food sources.
+        </item>
 
-    <string name="desc_singkat_4">
-        Hadrosaurus (/ˌhædrəˈsɔːrəs/;[1][2] from Greek ἁδρός, hadros, artinya "besar", dan σαῦρος, sauros, artinya "kadal")[3][4][5][6] adalah sebuah genus valid[7] dari dinosaurus hadrosaurid yang hidup di Amerika Utara pada zaman Kapur Akhir.
-    </string>
+        <item>
+            Sauropodomorpha is included in the Ornithischian Dinosaur group. They are divided into several families, including Diplodocidae, Brachiosauridae, and others.
+        </item>
+    </string-array>
+    
+    <string-array name="ornithopoda">
+        <item>
+            Ornithopoda is a clade of dinosaurs known for their bird-like hips and diverse dentition. They were primarily herbivorous and exhibited a wide range of body sizes, from small, agile species to larger, quadrupedal forms. Ornithopods are considered one of the most successful groups of dinosaurs, with a fossil record spanning millions of years.
+        </item>
 
-    <string name="desc_lengkap_4">
-        Hadrosaurus (/ˌhædrəˈsɔːrəs/;[1][2] from Greek ἁδρός, hadros, artinya "besar", dan σαῦρος, sauros, artinya "kadal")[3][4][5][6] adalah sebuah genus valid[7] dari dinosaurus hadrosaurid yang hidup di Amerika Utara pada zaman Kapur Akhir.
+        <item>
+            Ornithopods lived predominantly during the Mesozoic Era, specifically during the Jurassic and Cretaceous periods, which spanned from approximately 201 to 66 million years ago.
+        </item>
 
-\n\nHadrosaurus foulkii, satu-satunya spesies dalam genus tersebut, diketahui keberadaannya dari satu spesimen yang terdiri dari sebagian besar kerangka dan sebagian dari tengkoraknya.
-    </string>
+        <item>
+            Ornithopods typically possessed bipedal locomotion, although some larger species may have been capable of quadrupedal movement. They had specialized dental adaptations, including complex arrangements of teeth suited for grinding plant material. Their bodies varied greatly in size, ranging from a few meters to over ten meters in length.
+        </item>
 
-    <string name="desc_singkat_5">
-Allosaurus (bahasa Yunani: Allos; berbeda, aneh, dan Sauros; kadal) merupakan dinosaurus karnivora terbesar dalam Periode Jurasik. Allosaurus merupakan salah satu jenis dinosaurus yang paling baik dikenal sejauh ini selain karnivora terdahulu lainnya seperti Megalosaurus dan Tyrannosaurus rex.
-    </string>
+        <item>
+            Ornithopods inhabited diverse environments ranging from forests and woodlands to plains and floodplains. They were distributed across various continents, including North America, Europe, Asia, and Africa, adapting to a wide range of ecological niches.
+        </item>
 
-    <string name="desc_lengkap_5">
-        Allosaurus, walau merupakan pemangsa teratas di zamannya, pada awalnya mereka menetas dengan ukuran yang kecil, yang membutuhkan perawatan dari induknya. Allosaurus adalah karnivora eksklusif, yang memburu dan memakan dinosaurus herbivora lain seperti Camptosaurus, Diplodocus, Apatosaurus, Stegosaurus, dan Kentrosaurus. Metode menyerang dari dinosaurus raksasa ini telah diketahui dengan baik. Allosaurus diduga kuat menyergap mangsa semacam Ornithopoda karena mereka dapat berlari cepat, dan mengejar mangsa lambat seperti Sauropoda. Allosaurus memiliki gigi yang kuat, tajam, dan bergerigi di bagian belakang. Gigi khusus seperti ini terdapat pada semua Allosauridae. Dibandingkan karnivora lain, gigitan Allosaurus cenderung lemah namun otot-otot lehernya sangat kuat. Allosaurus menggunakannya untuk mengayunkan rahangnya yang terbuka maksimal, kemudian dengan sekuat tenaga akan menghunjamkan rahang atasnya langsung ke mangsa, menyebabkan cedera serius dan pendarahan yang hebat. Metode ini kadang disebut metode kapak karena tindakan ini bisa membunuh mangsa semudah kapak memotong kayu.
-    </string>
+        <item>
+            Ornithopods were predominantly herbivorous, feeding on vegetation such as ferns, cycads, and conifers. Their dentition suggests they were capable of processing tough plant material efficiently. Some ornithopods may have lived in herds for protection against predators and foraging efficiency. Additionally, they likely engaged in nesting behaviors, with evidence of communal nesting sites discovered for some species.
+        </item>
 
-    <string name="desc_singkat_6">
-        Diplodocus (pengucapan: /dɪˈplɒdəkəs/,[1][2] /daɪˈplɒdəkəs/,[2] atau /ˌdɪploʊˈdoʊkəs/[1]) adalah genus dinosaurus sauropod diplodocid yang fosilnya pertama kali ditemukan pada tahun 1877 oleh S. W. Williston. Dinosaurus ini hidup di Amerika Utara barat pada akhir periode Jurassic.
-    </string>
+        <item>
+            Ornithopoda is a clade within the larger group of Ornithischian dinosaurs, which also includes other notable clades such as Thyreophora (armored dinosaurs) and Marginocephalia (ceratopsians and pachycephalosaurs). Within Ornithopoda, there are several subgroups, including Iguanodontia and Hadrosauridae, which represent further diversification within this successful lineage of herbivorous dinosaurs.
+        </item>
+    </string-array>
 
-    <string name="desc_lengkap_6">
-        Diplodocus mungkin termasuk dalam sepuluh dinosaurus terbesar, dengan panjang 31 m. Tingginya sekitar 5 m, terhitung pendek bagi Sauropoda kebanyakan. Berat sekitar 20 ton yang terhitung ringan karena tulang-tulangnya berrongga. Pada ilustrasi dinosaurus awal, binatang ini sering digambarkan hidup di rawa dengan leher yang menjulur melengkung ke atas seperti angsa dan ekor yang diseret. Namun kini para ahli sudah menepis rekonstruksi itu karena diyakini luas Diplodocus tidak bisa menegakkan lehernya ke atas yang hanya akan memecahkan pembuluh darah oleh tekanan untuk mengangkut oksigen dari jantung ke otak. Dan karena tulang serta otot ekornya amat kuat, Diplodocus tidak mungkin menyeret ekornya, melainkan mengangkatnya untuk menyeimbangkan leher dan kepalanya yang besar.
-    </string>
+    <string-array name="ceratopsia">
+        <item>
+            Ceratopsia is a clade of herbivorous dinosaurs characterized by their distinctive frilled skulls adorned with horns and beaks. These dinosaurs were primarily quadrupedal and exhibited a wide range of body sizes, from small to large. Ceratopsians are best known for species such as Triceratops, which possessed elaborate cranial ornamentation.
+        </item>
 
-    <string name="desc_singkat_7">
-        Brachiosaurus (Pelafalan Inggris: /ˌbrækiəˈsɔːrəs/) adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.
-    </string>
+        <item>
+            Ceratopsians thrived during the Late Cretaceous period, which spanned from approximately 100 to 66 million years ago.
+        </item>
 
-    <string name="desc_lengkap_7">
-        Brachiosaurus (Pelafalan Inggris: /ˌbrækiəˈsɔːrəs/) adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.[2] Dinosaurus ini pertama kali dijelaskan oleh paleontolog Amerika bernama Elmer S. Riggs pada tahun 1903 dari fosil-fosil yang ditemukan di lembah Sungai Colorado di Colorado barat, Amerika Serikat. Riggs menamai dinosaurus ini Brachiosaurus altithorax nama generiknya adalah bahasa Yunani untuk "kadal lengan", dikarenakan proporsi lengannya yang panjang, dan nama spesifik berarti "dada dalam". Panjang Brachiosaurus diperkirakan antara 18 dan 26 meter (59 dan 85 kaki), bobotnya diperkirakan mencapai 28 sampai 58 ton metrik (31 and 64 ton pendek). Dinosaurus ini memiliki leher panjang yang tidak proporsional, tengkorak kecil, dan berukuran besar secara keseluruhan, yang merupakan ciri-ciri khas sauropoda. Ciri Brachiosaurus yang bukan merupakan ciri khas sebagian besar sauropoda adalah kaki depan yang lebih panjang daripada kaki belakang, yang membuat badan yang cenderung curam, dan ekor yang lebih pendek secara proporsional.
+        <item>
+            Ceratopsians were distinguished by their large, bony frills extending from the back of their skulls, as well as various arrangements of horns and spikes on their skulls. They had robust bodies and limbs suited for quadrupedal locomotion. Their beaked mouths were adapted for cropping vegetation.
+        </item>
 
-\n\nNama genus Brachiosaurus menjadi asal nama famili Brachiosauridae, yang mengandung beberapa sauropoda lainnya yang mirip dengan Brachiosaurus. Faktanya, penggambaran Brachiosaurus yang paling populer dibuat berdasarkan Giraffatitan, genus dinosaurus brachiosaurid dari Formasi Tendaguru di Tanzania. Giraffatitan awalnya dijelaskan oleh paleontolog asal Jerman bernama Werner Janensch pada 1914 sebagai spesies Brachiosaurus, B. brancai, namun dipindahkan ke genusnya sendiri pada tahun 2009. Tiga spesies Brachiosaurus lainnya dinamai berdasarkan fosil-fosil yang ditemukan di Afrika dan Eropa keduanya tidak lagi dianggap valid, dan yang ketiga telah menjadi genus terpisah, Lusotitan.
-    </string>
+        <item>
+            Ceratopsians inhabited diverse environments, including plains, forests, and coastal regions, across what is now North America and Asia. They likely preferred habitats with ample vegetation for feeding.
+        </item>
+
+        <item>
+            Ceratopsians were primarily herbivorous, feeding on a variety of plants such as ferns, cycads, and conifers. Their elaborate cranial structures were possibly used for display, species recognition, and defense against predators. Some evidence suggests that ceratopsians may have lived in herds, which could provide protection from predators and facilitate social behaviors.
+        </item>
+
+        <item>
+            Ceratopsia is a clade within the larger group of Ornithischian dinosaurs, which also includes other notable clades such as Thyreophora and Ornithopoda. Within Ceratopsia, there are several subgroups, including Ceratopsidae, which encompasses the well-known horned dinosaurs such as Triceratops, and other more basal forms such as Psittacosauridae.
+        </item>
+    </string-array>
+    
+    <string-array name="ankylosauria">
+        <item>
+            Ankylosauria is a clade of herbivorous dinosaurs characterized by their heavily armored bodies and unique defensive adaptations. These dinosaurs were notable for their thick bony plates, spikes, and club-like tails, which provided them with formidable protection against predators.
+        </item>
+
+        <item>
+            Ankylosaurians flourished during the Late Jurassic to the end of the Cretaceous period, spanning approximately 150 to 66 million years ago.
+        </item>
+
+        <item>
+            PAnkylosaurians exhibited distinctive physical features, including low-slung bodies covered in bony armor plates called osteoderms. They possessed broad, flattened skulls with small, leaf-shaped teeth adapted for grinding vegetation. Some species had rows of sharp spikes or knobs along their bodies, while others featured tail clubs composed of dense bone.
+        </item>
+
+        <item>
+            Ankylosaurians inhabited diverse environments such as forests, plains, and coastal regions. Fossil evidence suggests they were widespread across continents including North America, Asia, and Europe. They likely favored habitats rich in vegetation suitable for their herbivorous diet.
+        </item>
+
+        <item>
+            Ankylosaurians were primarily herbivores, feeding on a variety of plants including ferns, cycads, and low-lying vegetation. Their robust armor and defensive weaponry, such as tail clubs, indicate adaptations for defense against predators. Some species may have used their tail clubs for intraspecific combat or display during mating rituals.
+        </item>
+
+        <item>
+            Ankylosauria is classified as a clade within the larger group of Ornithischian dinosaurs, which also encompasses other notable clades such as Thyreophora and Ceratopsia. Within Ankylosauria, there are several families and genera, including Ankylosauridae and Nodosauridae, representing different evolutionary branches within this diverse group of armored dinosaurs.
+        </item>
+    </string-array>
+
+    <string-array name="pterosauria">
+        <item>
+            Pterosauria is an extinct clade of flying reptiles characterized by their membranous wings supported by an elongated fourth finger. These creatures were the first vertebrates known to have evolved powered flight, and they exhibited a diverse array of sizes and shapes.
+        </item>
+
+        <item>
+            Pterosaurs existed during the Mesozoic Era, predominantly during the Jurassic and Cretaceous periods, spanning from approximately 228 to 66 million years ago.
+        </item>
+
+        <item>
+            Pterosaurs had several unique physical features, including a lightweight skeleton, elongated wing membranes (patagia) stretching from the body to the elongated fourth finger, and a distinctive head crest in some species. They had toothed jaws and sharp beaks adapted for catching prey in flight or feeding on fish and other small animals.
+        </item>
+
+        <item>
+            Pterosaurs inhabited various environments, including coastal regions, inland lakes, and forests. Fossil evidence suggests they were distributed worldwide, with species found on every continent. They likely preferred habitats with access to water and abundant prey.
+        </item>
+
+        <item>
+            Pterosaurs were highly adapted for flight, with powerful wing muscles enabling them to soar and glide efficiently. They were skilled aerial predators, capable of catching prey on the wing using their sharp beaks and teeth. Some species may have also been capable of walking on land and even swimming in water.
+        </item>
+
+        <item>
+            Pterosauria is classified as a clade within the larger group of Archosauria, which also includes dinosaurs, crocodilians, and birds. Within Pterosauria, there are several subgroups, including Pterodactyloidea and Rhamphorhynchoidea, representing different evolutionary lineages within this diverse group of flying reptiles.
+        </item>
+    </string-array>
+    
+    <string-array name="tyran">
+        <item>
+            Tyrannosaurus rex, often abbreviated as T. rex, is one of the most famous and iconic dinosaurs of the Late Cretaceous period. It was a large carnivorous dinosaur known for its formidable size, powerful jaws, and keen predatory abilities.
+        </item>
+
+        <item>
+            Tyrannosaurus rex was characterized by its massive size, robust build, and distinctive features such as its large skull with sharp teeth, short forelimbs, and powerful hind limbs. It had a bipedal stance and a long, heavy tail that helped with balance.
+        </item>
+
+        <item>
+            Tyrannosaurus rex belongs to the group of theropod dinosaurs, specifically to the family Tyrannosauridae. It is one of the largest known members of this group.
+        </item>
+
+        <item>
+            Tyrannosaurus rex inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America.
+        </item>
+
+        <item>
+            Tyrannosaurus rex was a carnivore, preying on a variety of herbivorous dinosaurs of its time, such as hadrosaurs and ceratopsians. It was a formidable apex predator capable of taking down large prey.
+        </item>
+
+        <item>
+            Tyrannosaurus rex could reach lengths of up to 12 meters (40 feet) from its snout to the tip of its tail.
+        </item>
+
+        <item>
+            Estimates suggest that Tyrannosaurus rex stood around 4 to 6 meters (13 to 20 feet) tall at the hip.
+        </item>
+
+        <item>
+            Tyrannosaurus rex was a massive dinosaur, with estimates of its weight ranging from 8,000 to 14,000 kilograms (18,000 to 31,000 pounds) or more.
+        </item>
+
+        <item>
+            Despite its formidable size and strength, Tyrannosaurus rex likely had limitations in agility and stamina compared to its prey. Its short forelimbs may have been a biomechanical weakness, limiting its ability to grasp prey or defend itself in close combat. Additionally, some scientists speculate that it may have been vulnerable to injuries during hunting or territorial disputes due to its robust build and potential lack of flexibility.
+        </item>
+    </string-array>
+
+    <string-array name="velociraptor_dinosaur">
+    <item>
+        Velociraptor is a genus of small theropod dinosaurs known for their distinctive appearance and agile predatory behavior. They were part of the dromaeosaurid family and lived during the Late Cretaceous period.
+    </item>
+    <item>
+        Velociraptors were characterized by their small size, slender build, and sharp claws on their hands and feet. They had long, S-shaped necks, a long tail for balance, and a sleek, bird-like appearance.
+    </item>
+
+    <item>
+        Velociraptor belonged to the group of theropod dinosaurs, specifically to the family Dromaeosauridae. They were closely related to birds and shared many anatomical similarities with them.
+    </item>
+
+    <item>
+        Velociraptors inhabited various environments, including forests, plains, and coastal regions. They were widespread across what is now Asia, particularly in what is now Mongolia and China.
+    </item>
+
+    <item>
+        Velociraptors were carnivores, preying on small to medium-sized animals such as small dinosaurs, reptiles, and possibly early mammals. They were agile hunters and likely used their sharp claws and jaws to catch and kill prey.
+    </item>
+
+    <item>
+        Velociraptors were relatively small dinosaurs, measuring around 1.8 meters (6 feet) in length from snout to tail tip.
+    </item>
+
+    <item>
+        Velociraptors stood at approximately 0.5 meters (1.6 feet) tall at the hip.
+    </item>
+
+    <item>
+        Velociraptors were lightweight dinosaurs, weighing around 15 to 20 kilograms (33 to 44 pounds) on average.
+    </item>
+
+    <item>
+        Despite their agility and hunting prowess, Velociraptors may have been vulnerable to larger predators and could have been easily injured in confrontations due to their relatively small size and lightweight build. Additionally, their small size may have limited their ability to take down larger prey or defend themselves effectively against larger predators.
+    </item>
+    </string-array>
+
+    <string-array name="stegosaurus">
+    <item>
+        Stegosaurus is a genus of herbivorous dinosaur known for its distinctive double row of large, bony plates along its back and the pairs of spikes on its tail. It lived during the Late Jurassic period.
+    </item>
+    <item>
+        Stegosaurus was characterized by its large body, small head, and long tail. It had a row of bony plates, known as osteoderms, running along its back, which provided protection against predators and possibly regulated body temperature. Its tail was adorned with pairs of spikes, which were likely used for defense.
+    </item>
+
+    <item>
+        Stegosaurus belonged to the group of ornithischian dinosaurs, specifically to the family Stegosauridae. It was closely related to other armored dinosaurs such as Ankylosaurus.
+    </item>
+
+    <item>
+        Stegosaurus inhabited various environments, including forests and plains. Fossil evidence suggests it was widespread across what is now North America and Europe during the Late Jurassic period.
+    </item>
+
+    <item>
+        Stegosaurus was primarily herbivorous, feeding on low-lying vegetation such as ferns, cycads, and conifers. Its small head and peg-like teeth suggest it was adapted for browsing on tough plant material.
+    </item>
+
+    <item>
+        Stegosaurus could reach lengths of up to 9 meters (30 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Stegosaurus stood around 2.75 to 4 meters (9 to 13 feet) tall at the hip.
+    </item>
+
+    <item>
+        Stegosaurus was a large dinosaur, with estimates of its weight ranging from 2 to 5 metric tons (4,400 to 11,000 pounds).
+    </item>
+
+    <item>
+        Despite its formidable appearance and defensive weaponry, Stegosaurus may have had limitations in agility and speed due to its large size and relatively small brain. Additionally, its tail spikes, while effective for defense, may have made it difficult for Stegosaurus to maneuver quickly or efficiently.
+    </item>
+    </string-array>
+
+    <string-array name="hadrosaurus">
+    <item>
+        Hadrosaurus is a genus of herbivorous dinosaur commonly known as a duck-billed dinosaur. It lived during the Late Cretaceous period.
+    </item>
+    <item>
+        Hadrosaurus was characterized by its distinctive duck-like bill, which contained hundreds of tightly packed teeth suited for grinding tough vegetation. It had a bulky body with powerful hind limbs and a relatively smaller head compared to its body size.
+    </item>
+
+    <item>
+        Hadrosaurus belonged to the group of ornithischian dinosaurs, specifically to the family Hadrosauridae. It was closely related to other duck-billed dinosaurs such as Edmontosaurus and Parasaurolophus.
+    </item>
+
+    <item>
+        Hadrosaurus inhabited various environments, including forests, plains, and coastal regions. Fossil evidence suggests it was widespread across what is now North America and Asia during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Hadrosaurus was primarily herbivorous, feeding on a variety of vegetation such as leaves, ferns, and twigs. Its specialized dental structure allowed it to efficiently process plant material.
+    </item>
+
+    <item>
+        Hadrosaurus could reach lengths of up to 9 meters (30 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Hadrosaurus stood around 2 to 3 meters (6.5 to 10 feet) tall at the hip.
+    </item>
+
+    <item>
+        Hadrosaurus was a relatively large dinosaur, with estimates of its weight ranging from 2 to 4 metric tons (4,400 to 8,800 pounds).
+    </item>
+
+    <item>
+        Despite its size and powerful hind limbs, Hadrosaurus may have been vulnerable to predation due to its relatively small head and lack of defensive weaponry. Its large size and herbivorous diet may have also made it susceptible to resource competition and environmental changes.
+    </item>
+    </string-array>
+
+    <string-array name="allosaurus">
+    <item>
+        Allosaurus is a genus of large theropod dinosaur known for its formidable size, powerful jaws, and predatory prowess. It lived during the Late Jurassic period.
+    </item>
+
+    <item>
+        Allosaurus was characterized by its large, robust body, strong hind limbs, and relatively short forelimbs with three-fingered hands. It had a large skull with sharp teeth and powerful jaws, ideal for capturing and consuming prey.
+    </item>
+
+    <item>
+        Allosaurus belonged to the group of theropod dinosaurs, specifically to the family Allosauridae. It was closely related to other large carnivorous dinosaurs such as Tyrannosaurus rex and Spinosaurus.
+    </item>
+
+    <item>
+        Allosaurus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America, Europe, and possibly other continents during the Late Jurassic period.
+    </item>
+
+    <item>
+        Allosaurus was a carnivore, preying on a variety of herbivorous dinosaurs and other small to medium-sized animals. Its sharp teeth and powerful jaws allowed it to effectively hunt and consume prey.
+    </item>
+
+    <item>
+        Allosaurus could reach lengths of up to 9 meters (30 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Allosaurus stood around 3 to 4 meters (10 to 13 feet) tall at the hip.
+    </item>
+
+    <item>
+        Allosaurus was a large dinosaur, with estimates of its weight ranging from 1.5 to 5 metric tons (3,300 to 11,000 pounds).
+    </item>
+
+    <item>
+        Despite its formidable size and predatory abilities, Allosaurus may have been vulnerable to larger predators or group hunting tactics. Its relatively short forelimbs may have limited its ability to grasp and manipulate prey compared to some other theropod dinosaurs.
+    </item>
+    </string-array>
+
+    <string-array name="diplodocus">
+    <item>
+        Diplodocus is a genus of large herbivorous dinosaur known for its long neck and whip-like tail. It lived during the Late Jurassic period.
+    </item>
+    <item>
+        Diplodocus was characterized by its long, slender body, elongated neck, and whip-like tail. It had a small head with peg-like teeth and nostrils located on the top of its skull. Its forelimbs were shorter than its hind limbs, and it moved on all four legs.
+    </item>
+
+    <item>
+        Diplodocus belonged to the group of sauropod dinosaurs, specifically to the family Diplodocidae. It was closely related to other long-necked dinosaurs such as Apatosaurus and Brachiosaurus.
+    </item>
+
+    <item>
+        Diplodocus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Jurassic period.
+    </item>
+
+    <item>
+        Diplodocus was primarily herbivorous, feeding on a variety of vegetation such as ferns, conifers, and cycads. Its long neck allowed it to reach high branches and foliage for feeding.
+    </item>
+
+    <item>
+        Diplodocus could reach lengths of up to 25 meters (82 feet) from its snout to the tip of its tail, making it one of the longest known dinosaurs.
+    </item>
+
+    <item>
+        Estimates suggest that Diplodocus stood around 4 to 5 meters (13 to 16 feet) tall at the hip.
+    </item>
+
+    <item>
+        Diplodocus was a large dinosaur, with estimates of its weight ranging from 10 to 16 metric tons (22,000 to 35,000 pounds) or more.
+    </item>
+
+    <item>
+        Despite its massive size, Diplodocus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its long neck and relatively small head may have limited its ability to defend itself against large predators or to browse efficiently on low-lying vegetation.
+    </item>
+    </string-array>
+
+    <string-array name="brachiosaurus">
+    <item>
+        Brachiosaurus is a genus of large herbivorous dinosaur known for its long neck and relatively short tail. It lived during the Late Jurassic period.
+    </item>
+    <item>
+        Brachiosaurus was characterized by its long neck, which allowed it to reach high branches and foliage for feeding. It had a bulky body with robust limbs, with its forelimbs being longer than its hind limbs, giving it a unique posture with its head held high above its body.
+    </item>
+
+    <item>
+        Brachiosaurus belonged to the group of sauropod dinosaurs, specifically to the family Brachiosauridae. It was closely related to other long-necked dinosaurs such as Diplodocus and Apatosaurus.
+    </item>
+
+    <item>
+        Brachiosaurus inhabited various environments, including forests and plains. Fossil evidence suggests it was widespread across what is now North America, Africa, and possibly other continents during the Late Jurassic period.
+    </item>
+
+    <item>
+        Brachiosaurus was primarily herbivorous, feeding on a variety of vegetation such as leaves, ferns, and conifers. Its long neck and specialized teeth allowed it to efficiently browse on high vegetation.
+    </item>
+
+    <item>
+        Brachiosaurus could reach lengths of up to 26 meters (85 feet) from its snout to the tip of its tail, making it one of the largest known dinosaurs.
+    </item>
+
+    <item>
+        Estimates suggest that Brachiosaurus stood around 13 to 15 meters (42 to 49 feet) tall at the top of its head when fully upright, with its neck extended.
+    </item>
+
+    <item>
+        Brachiosaurus was a massive dinosaur, with estimates of its weight ranging from 30 to 60 metric tons (66,000 to 132,000 pounds) or more.
+    </item>
+
+    <item>
+        Despite its massive size and formidable appearance, Brachiosaurus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its large size and slow movement may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+    </string-array>
+
+    <string-array name="apatosaurus">
+    <item>
+        Apatosaurus, formerly known as Brontosaurus, is a genus of large herbivorous dinosaur known for its long neck and whip-like tail. It lived during the Late Jurassic period.
+    </item>
+
+    <item>
+        Apatosaurus was characterized by its long neck, which allowed it to reach high branches and foliage for feeding. It had a bulky body with robust limbs, including longer hind limbs than forelimbs. Its tail was relatively short and ended in a whip-like structure.
+    </item>
+
+    <item>
+        Apatosaurus belonged to the group of sauropod dinosaurs, specifically to the family Diplodocidae. It was closely related to other long-necked dinosaurs such as Diplodocus and Brachiosaurus.
+    </item>
+
+    <item>
+        Apatosaurus inhabited various environments, including forests and plains. Fossil evidence suggests it was widespread across what is now North America during the Late Jurassic period.
+    </item>
+
+    <item>
+        Apatosaurus was primarily herbivorous, feeding on a variety of vegetation such as leaves, ferns, and conifers. Its long neck and specialized teeth allowed it to efficiently browse on high vegetation.
+    </item>
+
+    <item>
+        Apatosaurus could reach lengths of up to 21 to 22 meters (69 to 72 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Apatosaurus stood around 7 to 9 meters (23 to 30 feet) tall at the top of its head when fully upright, with its neck extended.
+    </item>
+
+    <item>
+        Apatosaurus was a massive dinosaur, with estimates of its weight ranging from 16 to 22 metric tons (35,000 to 48,000 pounds) or more.
+    </item>
+
+    <item>
+        Despite its massive size and defensive tail, Apatosaurus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its large size and slow movement may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+
+    </string-array>
+
+    <string-array name="iguanodon">
+    <item>
+        Iguanodon is a genus of herbivorous dinosaur known for its distinctive thumb spike and ability to walk on both two and four legs. It lived during the Early Cretaceous period.
+    </item>
+    <item>
+        Iguanodon was characterized by its bulky body, long tail, and powerful hind limbs. It had a long thumb spike, which was likely used for defense against predators or foraging for food. Its teeth were adapted for chewing tough plant material.
+    </item>
+
+    <item>
+        Iguanodon belonged to the group of ornithopod dinosaurs, specifically to the family Iguanodontidae. It was closely related to other herbivorous dinosaurs such as Hadrosaurus and Ouranosaurus.
+    </item>
+
+    <item>
+        Iguanodon inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now Europe, North America, and Asia during the Early Cretaceous period.
+    </item>
+
+    <item>
+        Iguanodon was primarily herbivorous, feeding on a variety of vegetation such as ferns, cycads, and conifers. Its robust teeth and powerful jaws allowed it to efficiently process tough plant material.
+    </item>
+
+    <item>
+        Iguanodon could reach lengths of up to 9 meters (30 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Iguanodon stood around 3 to 4 meters (10 to 13 feet) tall at the hip.
+    </item>
+
+    <item>
+        Iguanodon was a large dinosaur, with estimates of its weight ranging from 2 to 5 metric tons (4,400 to 11,000 pounds) or more.
+    </item>
+
+    <item>
+        Despite its size and defensive thumb spike, Iguanodon may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its bipedal posture may have limited its ability to effectively defend itself against large predators, and its large size may have made it susceptible to resource competition and environmental changes.
+    </item>
+    </string-array>
+
+    <string-array name="edmontosaurus">
+    <item>
+        Edmontosaurus is a genus of herbivorous dinosaur known for its duck-billed appearance and large size. It lived during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Edmontosaurus was characterized by its duck-like bill, which contained hundreds of tightly packed teeth suited for grinding tough vegetation. It had a bulky body with powerful hind limbs and a relatively smaller head compared to its body size. Its forelimbs were shorter than its hind limbs.
+    </item>
+
+    <item>
+        Edmontosaurus belonged to the group of ornithopod dinosaurs, specifically to the family Hadrosauridae. It was closely related to other duck-billed dinosaurs such as Corythosaurus and Parasaurolophus.
+    </item>
+
+    <item>
+        Edmontosaurus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Edmontosaurus was primarily herbivorous, feeding on a variety of vegetation such as leaves, ferns, and conifers. Its duck-like bill and specialized dental structure allowed it to efficiently process tough plant material.
+    </item>
+
+    <item>
+        Edmontosaurus could reach lengths of up to 12 meters (39 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Edmontosaurus stood around 3 to 4 meters (10 to 13 feet) tall at the hip.
+    </item>
+
+    <item>
+        Edmontosaurus was a large dinosaur, with estimates of its weight ranging from 4 to 6 metric tons (8,800 to 13,200 pounds) or more.
+    </item>
+
+    <item>
+        Despite its size and defensive tail, Edmontosaurus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its large size and slow movement may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+    </string-array>
+
+    <string-array name="parasaurolophus">
+    <item>
+        Parasaurolophus is a genus of herbivorous dinosaur known for its distinctive crest on its head, which resembles a long tube. It lived during the Late Cretaceous period.
+    </item>
+    <item>
+        Parasaurolophus was characterized by its long, hollow crest, which extended backward from its skull. This crest was likely used for vocalization and communication, as well as for display purposes. It had a bulky body with powerful hind limbs and a relatively smaller head compared to its body size.
+    </item>
+
+    <item>
+        Parasaurolophus belonged to the group of ornithopod dinosaurs, specifically to the family Hadrosauridae. It was closely related to other duck-billed dinosaurs such as Edmontosaurus and Corythosaurus.
+    </item>
+
+    <item>
+        Parasaurolophus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Parasaurolophus was primarily herbivorous, feeding on a variety of vegetation such as leaves, ferns, and conifers. Its specialized dental structure allowed it to efficiently process tough plant material.
+    </item>
+
+    <item>
+        Parasaurolophus could reach lengths of up to 9 to 10 meters (30 to 33 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Parasaurolophus stood around 3 to 4 meters (10 to 13 feet) tall at the hip.
+    </item>
+
+    <item>
+      Parasaurolophus was a large dinosaur, with estimates of its weight ranging from 2 to 4 metric tons (4,400 to 8,800 pounds) or more.
+    </item>
+
+    <item>
+       Despite its size and unique crest, Parasaurolophus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its large size and relatively slow movement may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+    </string-array>
+
+    <string-array name="triceratops">
+    <item>
+      Triceratops is a genus of large herbivorous dinosaur known for its distinctive three-horned face and frill. It lived during the Late Cretaceous period.
+    </item>
+    <item>
+        Triceratops was characterized by its large body, sturdy legs, and unique skull adorned with three horns – two above the eyes and one on the nose. It also had a bony frill at the back of its skull, which may have served as protection or for display purposes.
+    </item>
+
+    <item>
+         Triceratops belonged to the group of ceratopsian dinosaurs, specifically to the family Ceratopsidae. It was closely related to other horned dinosaurs such as Styracosaurus and Torosaurus.
+    </item>
+
+    <item>
+       Triceratops inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Triceratops was primarily herbivorous, feeding on a variety of vegetation such as ferns, cycads, and conifers. Its robust beak and specialized teeth allowed it to efficiently process tough plant material.
+    </item>
+
+    <item>
+       Triceratops could reach lengths of up to 8 to 9 meters (26 to 30 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+      Estimates suggest that Triceratops stood around 2.5 to 3 meters (8 to 10 feet) tall at the hip.
+    </item>
+
+    <item>
+       Triceratops was a large dinosaur, with estimates of its weight ranging from 6 to 12 metric tons (13,000 to 26,000 pounds) or more.
+    </item>
+
+    <item>
+        Despite its formidable appearance and defensive horns, Triceratops may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its relatively slow movement and large size may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+    </string-array>
+
+    <string-array name="styracosaurus">
+    <item>
+        Styracosaurus is a genus of herbivorous dinosaur known for its distinctive frill adorned with long spikes and a single horn on its nose. It lived during the Late Cretaceous period.
+    </item>
+    <item>
+       Styracosaurus was characterized by its large body, sturdy legs, and unique skull adorned with a frill containing several long spikes. It also had a single horn protruding from its nose, which could reach lengths of up to 60 centimeters (2 feet). Its beak was suited for slicing through tough vegetation.
+    </item>
+
+    <item>
+        Styracosaurus belonged to the group of ceratopsian dinosaurs, specifically to the family Ceratopsidae. It was closely related to other horned dinosaurs such as Triceratops and Centrosaurus.
+    </item>
+
+    <item>
+        Styracosaurus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+    </item>
+
+    <item>
+        Styracosaurus was primarily herbivorous, feeding on a variety of vegetation such as ferns, cycads, and conifers. Its beak and specialized teeth allowed it to efficiently process tough plant material.
+    </item>
+
+    <item>
+        Styracosaurus could reach lengths of up to 5 to 6 meters (16 to 20 feet) from its snout to the tip of its tail.
+    </item>
+
+    <item>
+        Estimates suggest that Styracosaurus stood around 2 to 2.5 meters (6.5 to 8 feet) tall at the hip.
+    </item>
+
+    <item>
+        Styracosaurus was a large dinosaur, with estimates of its weight ranging from 2 to 3 metric tons (4,400 to 6,600 pounds) or more.
+    </item>
+
+    <item>
+       Despite its formidable appearance and defensive frill and horn, Styracosaurus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its relatively slow movement and large size may have also made it susceptible to environmental changes and resource limitations.
+    </item>
+    </string-array>
+
+    <string-array name="ankylosaurus">
+        <item>
+            Ankylosaurus is a genus of herbivorous dinosaur known for its heavily armored body and tail club. It lived during the Late Cretaceous period.
+        </item>
+        <item>
+            Ankylosaurus was characterized by its low-slung, heavily armored body covered in thick, bony plates called osteoderms. It also had a bony club at the end of its tail, which it likely used for defense against predators. Its skull was broad and flat, with small pointed teeth suited for chewing tough plant material.
+        </item>
+
+        <item>
+            Ankylosaurus belonged to the group of ornithischian dinosaurs, specifically to the family Ankylosauridae. It was closely related to other armored dinosaurs such as Euoplocephalus and Nodocephalosaurus.
+        </item>
+
+        <item>
+        Ankylosaurus inhabited various environments, including forests, plains, and river valleys. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+        </item>
+
+        <item>
+            Ankylosaurus was primarily herbivorous, feeding on low-lying vegetation such as ferns, cycads, and conifers. Its robust skull and specialized teeth allowed it to efficiently process tough plant material.
+        </item>
+
+        <item>
+             Ankylosaurus could reach lengths of up to 6 to 8 meters (20 to 26 feet) from its snout to the tip of its tail.
+        </item>
+
+        <item>
+            Estimates suggest that Ankylosaurus stood around 1.5 to 2 meters (5 to 6.5 feet) tall at the hip.
+        </item>
+
+        <item>
+            Ankylosaurus was a heavy dinosaur, with estimates of its weight ranging from 4 to 6 metric tons (8,800 to 13,200 pounds) or more.
+        </item>
+
+        <item>
+            Despite its formidable armor and tail club, Ankylosaurus may have been vulnerable to predation during its juvenile stages or when isolated from the protection of its herd. Its relatively slow movement and limited agility may have also made it susceptible to ambush by large predators.
+        </item>
+    </string-array>
+
+    <string-array name="pteranodon">
+         <item>
+                Pteranodon is a genus of large flying reptiles known as pterosaurs. It lived during the Late Cretaceous period and is one of the most well-known pterosaur species.
+        </item>
+        <item>
+             Pteranodon was characterized by its long, toothless beak and impressive wingspan, which could reach up to 7 meters (23 feet) or more. It had a crest on the back of its head, which varied in size and shape between different species and individuals.
+        </item>
+
+        <item>
+             Pteranodon belonged to the group of pterosaurs, which were flying reptiles that lived alongside dinosaurs during the Mesozoic Era.
+        </item>
+
+        <item>
+            Pteranodon inhabited various environments, including coastal regions and inland waterways. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+        </item>
+
+        <item>
+            Pteranodon was primarily piscivorous, meaning it primarily ate fish. Its long beak and specialized jaws were well-suited for catching and consuming fish while in flight.
+        </item>
+
+        <item>
+            Pteranodon had a body length of around 1 to 2 meters (3 to 6.5 feet), with its wingspan being much larger, reaching up to 7 meters (23 feet) or more.
+        </item>
+
+        <item>
+             As flying reptiles, Pteranodon did not have a standing height like terrestrial dinosaurs.
+        </item>
+
+        <item>
+             Estimates suggest that Pteranodon weighed anywhere from 20 to 50 kilograms (44 to 110 pounds), although this could vary between different species and individuals.
+        </item>
+
+        <item>
+            Pteranodon\'s large size and impressive wingspan made it well-adapted for flight, but it may have been vulnerable to predation from large terrestrial predators or other flying reptiles. Additionally, its reliance on coastal habitats for nesting and feeding could have made it susceptible to changes in sea level and habitat loss.
+        </item>
+    </string-array>
+
+    <string-array name="quetzalcoatlus">
+          <item>
+             Quetzalcoatlus is a genus of large flying reptiles known as pterosaurs. It lived during the Late Cretaceous period and is one of the largest known flying animals.
+          </item>
+        <item>
+            Quetzalcoatlus was characterized by its enormous size, with some species having wingspans exceeding 10 meters (33 feet). It had a long, toothless beak and a relatively short tail compared to other pterosaurs. Its neck was long and flexible, allowing it to reach prey while flying.
+        </item>
+
+        <item>
+            Quetzalcoatlus belonged to the group of pterosaurs, which were flying reptiles that lived alongside dinosaurs during the Mesozoic Era.
+        </item>
+
+        <item>
+            Quetzalcoatlus likely inhabited a variety of environments, including coastal regions, plains, and open woodlands. Fossil evidence suggests it was widespread across what is now North America during the Late Cretaceous period.
+        </item>
+
+        <item>
+            Quetzalcoatlus was likely a generalist feeder, capable of preying on small vertebrates such as fish, small dinosaurs, and other flying reptiles. Its long beak and sharp teeth were well-suited for capturing and consuming a wide range of prey.
+        </item>
+
+        <item>
+            Quetzalcoatlus had a body length of around 3 to 4 meters (10 to 13 feet), with its wingspan being much larger, exceeding 10 meters (33 feet) in some species.
+        </item>
+
+        <item>
+            As flying reptiles, Quetzalcoatlus did not have a standing height like terrestrial dinosaurs.
+        </item>
+
+        <item>
+            Estimates suggest that Quetzalcoatlus weighed anywhere from 200 to 250 kilograms (440 to 550 pounds), although this could vary between different species and individuals.
+        </item>
+
+        <item>
+             Despite its enormous size and aerial prowess, Quetzalcoatlus may have been vulnerable to environmental changes and competition for resources. Additionally, its large size may have made it a target for predators such as large theropod dinosaurs.
+        </item>
+    </string-array>
 
     <string name="nim_about">11S21010</string>
     <string name="nama_about">Gabriel Cesar Hutagalung</string>

@@ -27,65 +27,99 @@ class MainActivity : AppCompatActivity() {
 
         val listDinoFamily: ArrayList<DinoFamily> = ArrayList()
 
+        println(resources.getStringArray(R.array.saurischia)[0])
+
         val saurischia = DinoFamily(
             R.drawable.saurischia,
             "Saurischia",
-            resources.getString(R.string.desc_singkat_saurischia),
-            resources.getString(R.string.desc_lengkap_saurischia)
+            resources.getStringArray(R.array.saurischia)[0],
+            resources.getStringArray(R.array.saurischia)[1],
+            resources.getStringArray(R.array.saurischia)[2],
+            resources.getStringArray(R.array.saurischia)[3],
+            resources.getStringArray(R.array.saurischia)[4],
+            resources.getStringArray(R.array.saurischia)[5],
         )
 
         val ornithischia = DinoFamily(
             R.drawable.ornithischia,
-            "Ornithischia",
-            resources.getString(R.string.desc_singkat_ornithischia),
-            resources.getString(R.string.desc_lengkap_ornithopoda)
+            "Ornithischians",
+            resources.getStringArray(R.array.ornithischians)[0],
+            resources.getStringArray(R.array.ornithischians)[1],
+            resources.getStringArray(R.array.ornithischians)[2],
+            resources.getStringArray(R.array.ornithischians)[3],
+            resources.getStringArray(R.array.ornithischians)[4],
+            resources.getStringArray(R.array.ornithischians)[5],
         )
 
-        val theropoda = DinoFamily(
+        val theropods = DinoFamily(
             R.drawable.theropoda,
-            "Theropoda",
-            resources.getString(R.string.desc_singkat_theropoda),
-            resources.getString(R.string.desc_lengkap_theropoda)
+            "Theropods",
+            resources.getStringArray(R.array.theropods)[0],
+            resources.getStringArray(R.array.theropods)[1],
+            resources.getStringArray(R.array.theropods)[2],
+            resources.getStringArray(R.array.theropods)[3],
+            resources.getStringArray(R.array.theropods)[4],
+            resources.getStringArray(R.array.theropods)[5],
         )
 
         val sauropodomorpha = DinoFamily(
             R.drawable.sauropodomorpha,
             "Sauropodomorpha",
-            resources.getString(R.string.desc_singkat_sauropodomorpha),
-            resources.getString(R.string.desc_lengkap_sauropodomorpha)
+            resources.getStringArray(R.array.sauropodomorpha)[0],
+            resources.getStringArray(R.array.sauropodomorpha)[1],
+            resources.getStringArray(R.array.sauropodomorpha)[2],
+            resources.getStringArray(R.array.sauropodomorpha)[3],
+            resources.getStringArray(R.array.sauropodomorpha)[4],
+            resources.getStringArray(R.array.sauropodomorpha)[5],
         )
 
         val ornithopoda = DinoFamily(
             R.drawable.ornithopoda,
             "Ornithopoda",
-            resources.getString(R.string.desc_singkat_ornithopoda),
-            resources.getString(R.string.desc_lengkap_ornithopoda)
+            resources.getStringArray(R.array.ornithopoda)[0],
+            resources.getStringArray(R.array.ornithopoda)[1],
+            resources.getStringArray(R.array.ornithopoda)[2],
+            resources.getStringArray(R.array.ornithopoda)[3],
+            resources.getStringArray(R.array.ornithopoda)[4],
+            resources.getStringArray(R.array.ornithopoda)[5],
         )
 
         val ceratopsia = DinoFamily(
             R.drawable.ceratopsia,
             "Ceratopsia",
-            resources.getString(R.string.desc_singkat_ceratopsia),
-            resources.getString(R.string.desc_singkat_ceratopsia)
+            resources.getStringArray(R.array.ceratopsia)[0],
+            resources.getStringArray(R.array.ceratopsia)[1],
+            resources.getStringArray(R.array.ceratopsia)[2],
+            resources.getStringArray(R.array.ceratopsia)[3],
+            resources.getStringArray(R.array.ceratopsia)[4],
+            resources.getStringArray(R.array.ceratopsia)[5],
         )
 
         val ankylosauria = DinoFamily(
             R.drawable.ankylosauria,
             "Ankylosauria",
-            resources.getString(R.string.desc_singkat_ankylosauria),
-            resources.getString(R.string.desc_lengkap_ankylosauria)
+            resources.getStringArray(R.array.ankylosauria)[0],
+            resources.getStringArray(R.array.ankylosauria)[1],
+            resources.getStringArray(R.array.ankylosauria)[2],
+            resources.getStringArray(R.array.ankylosauria)[3],
+            resources.getStringArray(R.array.ankylosauria)[4],
+            resources.getStringArray(R.array.ankylosauria)[5],
         )
 
         val pterosauria = DinoFamily(
             R.drawable.pterosauria,
             "Pterosauria",
-            resources.getString(R.string.desc_singkat_pterosauria),
-            resources.getString(R.string.desc_lengkap_pterosauria)
+            resources.getStringArray(R.array.pterosauria)[0],
+            resources.getStringArray(R.array.pterosauria)[1],
+            resources.getStringArray(R.array.pterosauria)[2],
+            resources.getStringArray(R.array.pterosauria)[3],
+            resources.getStringArray(R.array.pterosauria)[4],
+            resources.getStringArray(R.array.pterosauria)[5],
         )
 
         listDinoFamily.add(saurischia)
         listDinoFamily.add(ornithischia)
-        listDinoFamily.add(theropoda)
+        listDinoFamily.add(theropods)
         listDinoFamily.add(sauropodomorpha)
         listDinoFamily.add(ornithopoda)
         listDinoFamily.add(ceratopsia)

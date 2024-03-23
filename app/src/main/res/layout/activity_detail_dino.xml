@@ -27,10 +27,10 @@
             android:src="@drawable/baseline_arrow_back_24"/>
 
         <TextView
-            android:id="@+id/nama_planet_toolbar"
+            android:id="@+id/nama_toolbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Dino Details"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -54,6 +54,7 @@
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:paddingBottom="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constraintLayoutDetailDino"
         app:layout_constraintStart_toStartOf="parent">
@@ -76,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
-                android:text="TextView"
+                android:text="Nama Dino"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -84,24 +85,219 @@
                 app:layout_constraintTop_toBottomOf="@+id/gambar_dino_detail" />
 
             <TextView
-                android:id="@+id/detail_dino"
+                android:id="@+id/desc_dino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:paddingHorizontal="24dp"
-                android:text=""
+                android:layout_marginTop="24dp"
+                android:text="Dino Description"
+                app:layout_constraintHorizontal_bias="0"
+                android:layout_marginStart="24dp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nama_dino_detail" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                app:layout_constraintTop_toBottomOf="@id/detail_dino"
+            <TextView
+                android:id="@+id/content_dino_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Content dino description"
+                app:layout_constraintTop_toBottomOf="@id/desc_dino"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent">
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintEnd_toEndOf="parent"/>
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dino_characteristics"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_description"
+                android:text="Dino Characteristics"/>
+
+            <TextView
+                android:id="@+id/content_dino_characteristics"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino characteristics"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_characteristics" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Group"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/dino_group"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_characteristics"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/content_dino_group"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino group"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_group" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Dino Habitat"
+                android:id="@+id/dino_habitat"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_group"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/content_dino_habitat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino habitat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_habitat" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Diet"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_habitat"
+                android:layout_marginStart="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/dino_diet"/>
+
+            <TextView
+                android:id="@+id/content_dino_diet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino diet"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_diet" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Length"
+                android:id="@+id/dino_length"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_diet"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/content_dino_length"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content Dino Length"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_length" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Height"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_length"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/dino_height"/>
+
+            <TextView
+                android:id="@+id/content_dino_height"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_height" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Weight"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_height"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/dino_weight"/>
+
+            <TextView
+                android:id="@+id/content_dino_weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content Dino Weight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_weight" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dino Weakness"
+                android:id="@+id/dino_weakness"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/content_dino_weight"/>
+
+            <TextView
+                android:id="@+id/content_dino_weakness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="24dp"
+                android:text="Content dino weakness"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dino_weakness" />
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

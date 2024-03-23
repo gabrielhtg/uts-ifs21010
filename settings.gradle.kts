@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Planets App"
+rootProject.name = "Dinopedia"
 include(":app")
  

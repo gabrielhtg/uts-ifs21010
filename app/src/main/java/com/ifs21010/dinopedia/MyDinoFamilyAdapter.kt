@@ -11,14 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 class MyDinoFamilyAdapter (val dinoFamilies : ArrayList<DinoFamily>) : RecyclerView.Adapter<MyDinoFamilyAdapter.MyViewHolder> () {
     inner class MyViewHolder (dinoFamilyView : View) : RecyclerView.ViewHolder(dinoFamilyView),
         View.OnClickListener {
-        var gambarDinoFamily : ImageView
-        var namaDinoFamily : TextView
-        var descSingkatDinoFamily : TextView
+        val gambarDinoFamily : ImageView
+        val namaDinoFamily : TextView
+        val descDinoFamily : TextView
 
         init {
             gambarDinoFamily = dinoFamilyView.findViewById(R.id.imageView)
-            namaDinoFamily = dinoFamilyView.findViewById(R.id.nama_planet)
-            descSingkatDinoFamily = dinoFamilyView.findViewById(R.id.deskripsi)
+            namaDinoFamily = dinoFamilyView.findViewById(R.id.family_name)
+            descDinoFamily = dinoFamilyView.findViewById(R.id.familyDesc)
 
             dinoFamilyView.setOnClickListener (this)
         }
@@ -26,10 +26,14 @@ class MyDinoFamilyAdapter (val dinoFamilies : ArrayList<DinoFamily>) : RecyclerV
         override fun onClick(v: View?) {
             val position = adapterPosition
             val intent = Intent(v!!.context, DetailDinoFamilyActivity::class.java).apply {
-                putExtra("gambarDinoFamily", dinoFamilies[position].gambarDinoFamily)
-                putExtra("namaDinoFamily", dinoFamilies[position].namaDinoFamily)
-                putExtra("descSingkatDinoFamily", dinoFamilies[position].descSingkatDinoFamily)
-                putExtra("descLengkapDinoFamily", dinoFamilies[position].descLengkapDinoFamily)
+                putExtra("familyName", dinoFamilies[position].familyName)
+                putExtra("familyImage", dinoFamilies[position].familyImage)
+                putExtra("familyDescription", dinoFamilies[position].familyDesc)
+                putExtra("familyLifePeriod", dinoFamilies[position].familyLifePeriod)
+                putExtra("familyPhysical", dinoFamilies[position].familyPhysicalCharacteristics)
+                putExtra("familyHabitat", dinoFamilies[position].familyHabitat)
+                putExtra("familyBehavior", dinoFamilies[position].familyBehavior)
+                putExtra("familyClassification", dinoFamilies[position].familyClassification)
             }
             v.context.startActivity(intent)
         }
@@ -46,8 +50,10 @@ class MyDinoFamilyAdapter (val dinoFamilies : ArrayList<DinoFamily>) : RecyclerV
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.namaDinoFamily.text = dinoFamilies[position].namaDinoFamily
-        holder.descSingkatDinoFamily.text = dinoFamilies[position].descSingkatDinoFamily
-        holder.gambarDinoFamily.setImageResource(dinoFamilies[position].gambarDinoFamily)
+        val currentDino  = dinoFamilies[position]
+
+        holder.gambarDinoFamily.setImageResource(currentDino.familyImage)
+        holder.namaDinoFamily.text = currentDino.familyName
+        holder.descDinoFamily.text = currentDino.familyDesc
     }
 }
